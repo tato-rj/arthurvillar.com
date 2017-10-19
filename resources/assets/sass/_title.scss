@@ -1,0 +1,36 @@
+#title {
+	img {
+		width: 40px;
+		margin-right: 12px;
+	}
+
+	.social {
+		flex-grow: 1;
+		text-align: right;
+
+		.fa {
+			font-size: 1.6em;
+			color: lightgrey;
+			margin-left: 16px;
+			transition: 0.2s;
+			vertical-align: -webkit-baseline-middle;
+		}
+
+		.fa-github:hover {
+			color: #24292e;
+		}
+
+		.fa-facebook:hover {
+			color: #3B5998;
+		}
+
+		.fa-twitter:hover {
+			color: #1da1f2;
+		}
+
+		.fa-youtube:hover {
+			color: #d34836;
+		}
+
+	}
+}

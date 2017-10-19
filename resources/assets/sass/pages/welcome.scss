@@ -1,0 +1,35 @@
+#welcome-container {
+	height: 100vh;
+
+	h1 {
+		font-size: 3.5rem;
+		margin-bottom: 18px;
+	}
+
+	.nav-icon {
+		height: 60px;
+		margin: 0 24px;
+	}
+
+	small {
+		color: lightgrey;
+	}
+
+	.social {
+		position: fixed;
+		bottom: 16px;
+		left: 50%;
+		transform: translateX(-50%);
+
+		i {
+			margin: 8px;
+			font-size: 1.3em;
+			color: lightgrey;
+			transition: 0.2s;
+		}
+
+		i:hover {
+			color: grey;
+		}
+	}
+}

@@ -1,0 +1,158 @@
+#code-container {
+	.gal {
+		> div {
+			height: 380px;
+			overflow: hidden;
+			padding: 0;
+		    display: flex;
+		    align-items: baseline;
+		    justify-content: center;
+
+		    > div {
+		    	position: absolute;
+		    	top: 0;
+		    	left: 0;
+		    	width: 100%;
+		    	height: 100%;
+		    }
+
+		    .bg {
+		    	transition: all .2s;
+		    }
+		}
+
+		> div:hover {
+			.bg {
+				transform: scale(1.1);
+				opacity: 0.4;
+			}
+		}
+
+		h2 {
+			color: white;
+		}
+
+		.btn {
+			border: 1px solid;
+			color: white;
+			border-radius: 0;
+		}
+
+		.btn-store {
+			width: 130px;
+
+			img {
+				width: 100%;
+			}
+
+			img:first-of-type {
+				margin-bottom: 6px;
+			}
+		}
+
+		.label {
+			padding: 2px 6px;
+			font-size: 0.8em;
+			font-weight: bold;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+		}
+	}
+		
+	#tsb {
+		.bg {
+			background: url("/images/portfolio/tsb/bg.png");
+			background-position: 25% 0%;
+		}
+
+		.overlay {
+		    background: $gal-green-l;
+		}
+
+		.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+			color: $gal-green-l;
+		}
+	}
+
+	#musiceasy {
+
+		.bg {
+			background: url("/images/portfolio/musiceasy/bg.png");
+			background-position: 50% 50%;
+			background-size: cover;
+		}
+
+		.overlay {
+		    background: $gal-blue;
+		}
+
+		.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+			color: $gal-blue;
+		}
+	}
+
+	#hmta {
+		.bg {
+			background: url("/images/portfolio/hmta/bg.png");
+			background-position: 50% 50%;
+			background-size: cover;
+		}
+
+		.overlay {
+		    background: $gal-red;
+		}
+
+		.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+			color: $gal-red;
+		}
+	}
+
+	#coolflip {
+		.bg {
+			background: url("/images/portfolio/coolflip/bg.png");
+			background-position: 50% 50%;
+			background-size: cover;
+		}
+
+		.overlay {
+		    background: $gal-violet;
+		}
+
+		.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+			color: $gal-violet;
+		}
+	}
+
+	#farmacia {
+		.bg {
+			background: url("/images/portfolio/farmacia/bg.png");
+			background-position: 50% 50%;
+			background-size: cover;
+		}
+
+		.overlay {
+		    background: $gal-green;
+		}
+
+		.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+			color: $gal-green;
+		}
+	}
+
+	#libraries {
+		text-align: center;
+
+		h5 {
+			display: inline-block;
+			text-indent: 0;
+			color: grey;
+		}
+
+		img {
+			width: 160px;
+			margin: 24px;
+		}
+	}
+}

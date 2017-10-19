@@ -1,0 +1,47 @@
+#dashboard {
+
+	.fa {
+		margin-right: 6px;
+	}
+	
+	h6 {
+		color: white;
+		padding: 6px;
+	}
+
+	ul {
+
+		padding: 0;
+
+		a {
+			color: inherit;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		li, p {
+			list-style-type: none;
+			text-indent: 0;
+			padding: 4px 8px;
+			font-size: 0.9em;
+			color: grey;
+
+			small {
+				color: lightgrey;
+				font-style: italic;
+			}
+		}
+		
+		li {
+			transition: 0.2s;
+		}
+
+		li:hover {
+			background: rgba(0,0,0,0.02);
+			color: black;
+		}
+	}
+
+}

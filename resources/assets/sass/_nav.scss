@@ -1,0 +1,31 @@
+#nav {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid lightgrey;
+	z-index: 10;
+	background: white;
+
+	a {
+		transition: 0.2s;
+	    border-bottom: 4px solid transparent;
+	}
+	
+	a:hover, .active {
+		border-color: $brand-danger;
+	}
+
+	a.profile:hover, .active-profile {
+		border-color: $brand-info;
+	}
+
+	div {
+		width: 100%;
+	}
+	
+	.nav-icon {
+		margin: 24px;
+		height: 30px;
+	}
+}

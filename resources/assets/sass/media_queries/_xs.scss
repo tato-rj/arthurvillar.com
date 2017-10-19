@@ -1,0 +1,40 @@
+@media screen and (max-width: 786px)  
+{	
+
+	body {
+		border-top-width: 4px;
+	}
+	
+	#welcome-container {
+		height: 98vh;
+	}
+
+	#contact-container {
+		margin-bottom: 116px;
+	}
+
+	#title {
+		justify-content: center;
+		margin-top: 1em;
+
+		h1 {
+			font-size: 2em;
+			margin: 16px 0;
+		}
+
+		img {
+			display: none;
+		}
+	}
+	
+	#welcome-container {
+		#title {
+			margin: 0;
+		}
+	}
+
+	#music-container .row, #contact-container .row, #code-container .row {
+	    margin-top: 2rem;
+	    margin-bottom: 3rem;
+	}
+}
