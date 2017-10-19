@@ -32,10 +32,10 @@
 				<p>To get in touch with me just fill out the form or follow one of the addresses below:</p>
 				<ul class="mt-4 p-0">
 					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:{{ config('app.email') }}">arthurvillar@gmail.com</a></li>
-					<li><i class="fa fa-github" aria-hidden="true"></i><a href="#">Github</a></li>
-					<li><i class="fa fa-twitter" aria-hidden="true"></i><a href="#">Twitter</a></li>
-					<li><i class="fa fa-facebook" aria-hidden="true"></i><a href="#">Facebook</a></li>
-					<li><i class="fa fa-youtube" aria-hidden="true"></i><a href="#">YouTube</a></li>
+					<li><i class="fa fa-github" aria-hidden="true"></i><a href="{{ config('app.github') }}" target="_blank">Github</a></li>
+					<li><i class="fa fa-twitter" aria-hidden="true"></i><a href="{{ config('app.twitter') }}" target="_blank">Twitter</a></li>
+					<li><i class="fa fa-facebook" aria-hidden="true"></i><a href="{{ config('app.facebook') }}" target="_blank">Facebook</a></li>
+					<li><i class="fa fa-youtube" aria-hidden="true"></i><a href="{{ config('app.youtube') }}" target="_blank">YouTube</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
