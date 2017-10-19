@@ -45,7 +45,7 @@
 				</ul>
 			</div>
 			<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-				<form class="" method="POST" action="{{ route('login') }}">
+				<form class="" method="POST" action="#">
 					{{ csrf_field() }}
 					<div class="form-group">
 						<input type="text" name="name" value="{{ old('name') }}" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">

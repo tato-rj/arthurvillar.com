@@ -53,7 +53,7 @@
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">Remember me</span>
                     </label>
-                    <a href="{{ route('password.request') }}">Forgot password?</a>
+                    <a href="{{ route('password.request') }}" target="_blank">Forgot password?</a>
                 </div>
             </form>
             @if ($errors->has('email'))
