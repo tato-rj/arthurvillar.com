@@ -1,0 +1,13 @@
+TO DO:
+
+- Set up contact form (it is not sending any emails)
+- Email markups
+- Set up real email (currently using mailtrap)
+- Create delete account button
+- Create settings page
+- Handle feedback status from flash messages on:
+	Send email from contact form
+	Request reset password link
+	Reset password form
+	Login
+	Register

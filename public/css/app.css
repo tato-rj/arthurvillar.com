@@ -74,9 +74,14 @@ p {
   margin: 0;
 }
 
+button,
 input,
 textarea {
   font-family: inherit;
+}
+
+.no-indent {
+  text-indent: 0;
 }
 
 .form-title {

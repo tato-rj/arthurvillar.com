@@ -23,8 +23,12 @@ p {
 	margin: 0;
 }
 
-input, textarea {
+button, input, textarea {
 	font-family: inherit;
+}
+
+.no-indent {
+	text-indent: 0;
 }
 
 .form-title {
