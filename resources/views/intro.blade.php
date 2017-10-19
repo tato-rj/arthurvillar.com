@@ -1,5 +1,11 @@
 @extends('_app')
 
+@section('header')
+    @component('partials.header')
+    Welcome to {{ config('app.name') }}.com
+    @endcomponent
+@endsection
+
 @section('content')
 <div class="container-fluid">
     <div class="row align-items-center" id="welcome-container">

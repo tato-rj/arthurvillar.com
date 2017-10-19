@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     {{-- Head of HTML, contaning meta, title and link tags --}}
-    @include('partials.header')
+    @yield('header')
     <body>
         <main class="hidden">
             {{-- Sets up the bottom menu bar --}}

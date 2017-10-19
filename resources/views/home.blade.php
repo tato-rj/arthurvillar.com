@@ -1,5 +1,11 @@
 @extends('_app')
 
+@section('header')
+    @component('partials.header')
+        {{ auth()->user()->first_name }}'s dashboard
+    @endcomponent
+@endsection
+
 @section('menu')
     @component('partials.nav')
         @slot('music')

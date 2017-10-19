@@ -1,5 +1,11 @@
 @extends('_app')
 
+@section('header')
+    @component('partials.header')
+    Arthur Villar - Contact
+    @endcomponent
+@endsection
+
 @section('menu')
 	@component('partials.nav')
 		@slot('music')
