@@ -633,7 +633,19 @@ textarea {
     margin-bottom: 3rem;
   }
 
-  .card .btn {
+  #dashboard h6 {
+    padding: 10px;
+  }
+
+  #dashboard > .row > div:not(:last-of-type) {
+    margin-bottom: 22px;
+  }
+
+  #dashboard .card .card-header {
+    padding: 0.5rem 1rem;
+  }
+
+  #dashboard .card .btn {
     width: 100%;
     padding: 6px;
     font-size: 1.1em;

@@ -38,13 +38,29 @@
 	    margin-bottom: 3rem;
 	}
 	
-	.card {
-		.btn {
-			width: 100%;
-			padding: 6px;
-			font-size: 1.1em;
-			margin-bottom: 12px; 
+	#dashboard {
+		
+		h6 {
+			padding: 10px;
+		}
+
+		> .row {
+			> div:not(:last-of-type) {
+				margin-bottom: 22px;
+			}
+		}
+
+		.card {
+			.card-header {
+				padding: 0.5rem 1rem;
+			}
+
+			.btn {
+				width: 100%;
+				padding: 6px;
+				font-size: 1.1em;
+				margin-bottom: 12px; 
+			}
 		}
 	}
-
 }
