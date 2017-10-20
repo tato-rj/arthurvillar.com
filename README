@@ -1,6 +1,5 @@
 TO DO:
 
-- Add info button to projects (Show as popup). This will include date created, client's information, etc.
 - Set up contact form (it is not sending any emails).
 - Email markups.
 - Set up real email (currently using mailtrap).
