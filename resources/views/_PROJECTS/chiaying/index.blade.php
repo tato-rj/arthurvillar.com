@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Chia-ying Chan - Official Website</title>
 
     <link rel="stylesheet" type="text/css" href="{{ asset('_PROJECTS/chiaying/css/bootstrap.min.css') }}">
     <script src="https://use.fontawesome.com/266720d991.js"></script>
@@ -16,6 +16,12 @@
 
 </head>
 <body>
+    <div id="overlay">
+        <div class="d-flex align-items-center justify-content-center flex-column">
+            <h3>CHIA-YING CHAN</h1>
+            <h6>pianist</h4>
+        </div>
+    </div>
     <div class="flex-center position-ref full-height">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container-fluid">
@@ -44,12 +50,12 @@
         </div>
     </div>
 </nav>        <header class="masthead" id="page-top">
-	<div class="intro-body">
-		<a href="#about" class="js-scroll-trigger">
-			<i class="fa fa-chevron-down" aria-hidden="true"></i>
-		</a>
-		<div id="gradient"></div>
-	</div>
+    <div class="intro-body">
+        <a href="#about" class="js-scroll-trigger">
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </a>
+        <div id="gradient"></div>
+    </div>
 </header>        <!-- About Section -->
 <section id="about" class="content-section text-center">
     <div class="container">
@@ -95,542 +101,578 @@
                             <a class="nav-link" id="v-pills-2016-tab" data-toggle="pill" href="#v-pills-2016" role="tab" aria-controls="v-pills-2016" aria-selected="false">2016</a>
                             <a class="nav-link" id="v-pills-2015-tab" data-toggle="pill" href="#v-pills-2015" role="tab" aria-controls="v-pills-2015" aria-selected="false">2015</a>
                         </div>
-                        
                     </div>
                     <div class="col-12">
                         <div class="tab-content" id="v-pills-tabContent">
                             
                             <div class="tab-pane fade show active" id="v-pills-2017" role="tabpanel" aria-labelledby="v-pills-2017-tab">
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Schuberttiade Chicago</p>
-                                            <p><small>PianoForte Foundation, Chicago IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                JAN 29
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>12:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Classical Jam</p>
-                                            <p><small>Iron Post, Urbana, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                APR 17
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Studio Recital</p>
-                                            <p><small>Coummity Center for the Arts, Urbana, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                MAY 20
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>10:00</p>
-                                            <p>AM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>Wilmette Public Library, Wilmette, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                JUN 17
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>2:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>Self Help Home, Chicago, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                JUN 18
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>2:30</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Chia-Ying Chan &amp; Linsey Vikers Piano Solo/Duo Performance</p>
-                                            <p><small>Cayce First Baptist Church, Cayce, SC</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                JUN 25
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>10:45</p>
-                                            <p>AM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>Three Crowns Park, Evanston, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                AUG 1
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>The Mather, Evanston, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                AUG 21
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:30</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Pianist - UI Wind Symphony</p>
-                                            <p><small>Foellinger Great Hall at Krannert Center for the Performing Arts, Urbana, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                SEP 24
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>3:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Beethoven Piano Concerto No.4 Performance</p>
-                                            <p><small>Sinfonia da Camera/ Ian Hobson, Conductor - Foellinger Great Hall at Krannert Center for the Performing Arts, Urbana, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                SEP 30
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:30</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>Luther Village, Arlinton Heights, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                OCT 3
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>The Vi at The Glen, Glenview, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                OCT 21
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>8:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Amosa Duo Recital</p>
-                                            <p><small>Grant Vally State University,Allendal, MI</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                NOV 8
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:30</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Amosa Duo Recital</p>
-                                            <p><small>PianoForte Foundation, Chicago, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                NOV 18
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>University of Illinois at Urbana-Champaign, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                DEC 7
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:30</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                            </div>
+                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Schuberttiade Chicago</p>
+            <p><small>PianoForte Foundation, Chicago IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                JAN 29
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>12:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Classical Jam</p>
+            <p><small>Iron Post, Urbana, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                APR 17
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Studio Recital</p>
+            <p><small>Coummity Center for the Arts, Urbana, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                MAY 20
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>10:00</p>
+            <p>AM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>Wilmette Public Library, Wilmette, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                JUN 17
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>2:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>Self Help Home, Chicago, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                JUN 18
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>2:30</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Chia-Ying Chan &amp; Linsey Vikers Piano Solo/Duo Performance</p>
+            <p><small>Cayce First Baptist Church, Cayce, SC</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                JUN 25
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>10:45</p>
+            <p>AM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>Three Crowns Park, Evanston, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                AUG 1
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>The Mather, Evanston, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                AUG 21
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:30</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Pianist - UI Wind Symphony</p>
+            <p><small>Foellinger Great Hall at Krannert Center for the Performing Arts, Urbana, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                SEP 24
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>3:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Beethoven Piano Concerto No.4 Performance</p>
+            <p><small>Sinfonia da Camera/ Ian Hobson, Conductor - Foellinger Great Hall at Krannert Center for the Performing Arts, Urbana, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                SEP 30
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:30</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>Luther Village, Arlinton Heights, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                OCT 3
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>The Vi at The Glen, Glenview, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                OCT 21
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>8:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Amosa Duo Recital</p>
+            <p><small>Grant Vally State University,Allendal, MI</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                NOV 8
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:30</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Amosa Duo Recital</p>
+            <p><small>PianoForte Foundation, Chicago, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                NOV 18
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>University of Illinois at Urbana-Champaign, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                DEC 7
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:30</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                            </div>
                             
                             <div class="tab-pane fade" id="v-pills-2016" role="tabpanel" aria-labelledby="v-pills-2016-tab">
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Charity Concert</p>
-                                            <p><small>E-Da Hospital, Kaohsiung, Taiwan</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                FEB 5
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>10:30</p>
-                                            <p>AM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>American Fine Arts Festival International Concerto Competition Winner’s Concert</p>
-                                            <p><small>Carnegie Hall’s Weill Hall, New York, NY</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                FEB 13
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:30</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Guest Lecturer and Performer on Beethoven Piano Concerto no. 4</p>
-                                            <p><small>Osher Lifelong Learning Institute, Champaign, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                FEB 23
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>11:00</p>
-                                            <p>AM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Guest Artist, The College Music Society Conference- Composer’s Concert</p>
-                                            <p><small>Grant Hall, University of Missouri in Kansas City, Kansas, MO</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                MAR 5
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:30</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Duo Performance</p>
-                                            <p><small>Grand Valley State University - Allendale, MI</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                MAR 18
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>12:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Recital and Master Class Series</p>
-                                            <p><small>Piano Company in Portland, Portland, OR</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                MAY 22
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano solo and Duet performance</p>
-                                            <p><small>Piano Company in Portland, Portland, OR</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                MAY 24
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano solo performance</p>
-                                            <p><small>Kostroma Music Hall, Kostroma, Russia</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                JUL 7
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>8:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Beethoven Piano Concerto No.4 Performance</p>
-                                            <p><small>Kostroma Symphony Orchestra / Pavel Gershtein, conductor - Kostroma Music Hall, Kostroma, Russia</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                JUL 9
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>8:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Beethoven Piano Concerto No.4 Performance</p>
-                                            <p><small>Kostroma Symphony Orchestra / Pavel Gershtein, Conductor - Russinovo Village, Russia</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                JUL 10
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>12:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo performance</p>
-                                            <p><small>Sala dei Notari, Perugia, Italy</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                AUG 5
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>9:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Chia-Ying Chan &amp; Rumi Oh Piano Solo / Duet Recital</p>
-                                            <p><small>Fields Pianos-Home of Steinway, Santa Ana, CA</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                SEP 10
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>2:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>PianoForte Foundation, Chicago, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                OCT 7
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>6:00</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>National Concerto Hall&#039;s Recital Hall, Taipei, Taiwan</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                NOV 16
-                                            </p>
-                                        </div>
-                                                                                <div>
-                                            <p>7:30</p>
-                                            <p>PM</p>
-                                        </div>
-                                                                            </div>
-                                                            </div>
+                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Charity Concert</p>
+            <p><small>E-Da Hospital, Kaohsiung, Taiwan</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                FEB 5
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>10:30</p>
+            <p>AM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">American Fine Arts Festival International Concerto Competition Winner’s Concert</p>
+            <p><small>Carnegie Hall’s Weill Hall, New York, NY</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                FEB 13
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:30</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Guest Lecturer and Performer on Beethoven Piano Concerto no. 4</p>
+            <p><small>Osher Lifelong Learning Institute, Champaign, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                FEB 23
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>11:00</p>
+            <p>AM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Guest Artist, The College Music Society Conference- Composer’s Concert</p>
+            <p><small>Grant Hall, University of Missouri in Kansas City, Kansas, MO</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                MAR 5
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:30</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Duo Performance</p>
+            <p><small>Grand Valley State University - Allendale, MI</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                MAR 18
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>12:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Recital and Master Class Series</p>
+            <p><small>Piano Company in Portland, Portland, OR</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                MAY 22
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano solo and Duet performance</p>
+            <p><small>Piano Company in Portland, Portland, OR</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                MAY 24
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano solo performance</p>
+            <p><small>Kostroma Music Hall, Kostroma, Russia</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                JUL 7
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>8:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Beethoven Piano Concerto No.4 Performance</p>
+            <p><small>Kostroma Symphony Orchestra / Pavel Gershtein, conductor - Kostroma Music Hall, Kostroma, Russia</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                JUL 9
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>8:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Beethoven Piano Concerto No.4 Performance</p>
+            <p><small>Kostroma Symphony Orchestra / Pavel Gershtein, Conductor - Russinovo Village, Russia</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                JUL 10
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>12:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo performance</p>
+            <p><small>Sala dei Notari, Perugia, Italy</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                AUG 5
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>9:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Chia-Ying Chan &amp; Rumi Oh Piano Solo / Duet Recital</p>
+            <p><small>Fields Pianos-Home of Steinway, Santa Ana, CA</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                SEP 10
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>2:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>PianoForte Foundation, Chicago, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                OCT 7
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>6:00</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>National Concerto Hall&#039;s Recital Hall, Taipei, Taiwan</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                NOV 16
+            </p>
+        </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            <p>7:30</p>
+            <p>PM</p>
+        </div>
+            </div>
+</div>                                                            </div>
                             
                             <div class="tab-pane fade" id="v-pills-2015" role="tabpanel" aria-labelledby="v-pills-2015-tab">
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>American Protégé International Competition Winners’ Concert</p>
-                                            <p><small>Carnegie Hall’s Weil Hall, New York, NY</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                MAR 21
-                                            </p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Piano Solo Recital</p>
-                                            <p><small>The Bloomingdale School of Music, New York, NY</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                MAR 22
-                                            </p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Chamber performance in Maria Arrua Violin Doctoral Solo Recital</p>
-                                            <p><small>Smith Recital Hall, UIUC, Urbana, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                APR 15
-                                            </p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Guest Artist Performance for UIUC MTNA Music Club Recital</p>
-                                            <p><small>Smith Memorial Room, UIUC, Urbana, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                APR 25
-                                            </p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Collaborative performance in Grace Yang Violin Doctoral Solo Recital</p>
-                                            <p><small>Smith Memorial Room, UIUC, Urbana, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                MAY 5
-                                            </p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>John Perry Academy Performing Concert</p>
-                                            <p><small>Cypress Recital Hall at California State University, Northbridge, CA</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                JUL 6
-                                            </p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>PianoSummer Student Recital</p>
-                                            <p><small>Shepard Hall, State University of New York at New Paltz</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                JUL 30
-                                            </p>
-                                        </div>
-                                                                            </div>
-                                                                    <div class="d-flex align-items-center event">
-                                        <div class="flex-grow text-left">
-                                            <p>Chamber Performance in Gary June Clarinet Doctoral Project Recital</p>
-                                            <p><small>Smith Memorial Room, UIUC, IL</small></p> 
-                                        </div>
-                                        <div>
-                                            <p>
-                                                NOV 3
-                                            </p>
-                                        </div>
-                                                                            </div>
-                                                            </div>
+                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">American Protégé International Competition Winners’ Concert</p>
+            <p><small>Carnegie Hall’s Weil Hall, New York, NY</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                MAR 21
+            </p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Piano Solo Recital</p>
+            <p><small>The Bloomingdale School of Music, New York, NY</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                MAR 22
+            </p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Chamber performance in Maria Arrua Violin Doctoral Solo Recital</p>
+            <p><small>Smith Recital Hall, UIUC, Urbana, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                APR 15
+            </p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Guest Artist Performance for UIUC MTNA Music Club Recital</p>
+            <p><small>Smith Memorial Room, UIUC, Urbana, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                APR 25
+            </p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Collaborative performance in Grace Yang Violin Doctoral Solo Recital</p>
+            <p><small>Smith Memorial Room, UIUC, Urbana, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                MAY 5
+            </p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">John Perry Academy Performing Concert</p>
+            <p><small>Cypress Recital Hall at California State University, Northbridge, CA</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                JUL 6
+            </p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">PianoSummer Student Recital</p>
+            <p><small>Shepard Hall, State University of New York at New Paltz</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                JUL 30
+            </p>
+        </div>
+            </div>
+</div>                                                                    <div class="container">
+    <div class="row event align-items-center">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-left">
+            <p class="title">Chamber Performance in Gary June Clarinet Doctoral Project Recital</p>
+            <p><small>Smith Memorial Room, UIUC, IL</small></p> 
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-8">
+            <p>
+                NOV 3
+            </p>
+        </div>
+            </div>
+</div>                                                            </div>
                         </div>                       
                     </div>
                 </div>
@@ -770,9 +812,10 @@
         </div>
     </div>
 </section>        <footer>
-	<div class="container text-center">
-		<p>Copyright &copy; Chia-ying Chan 2017</p>
-	</div>
+    <div class="container text-center">
+        <p class="mb-1"><a href="/?lang=eng">english</a> | <a href="?lang=zh">chinese</a></p>
+        <p>Copyright &copy; Chia-ying Chan 2017</p>
+    </div>
 </footer>    </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -782,7 +825,7 @@
 <script type="text/javascript" src="{{ asset('_PROJECTS/chiaying/js/app.js') }}"></script>
 <script type="text/javascript">
 $('#calendar .nav-link').on('click', function() {
-	$(this).siblings().removeClass('active');
+    $(this).siblings().removeClass('active');
 });
 </script>
 </body>

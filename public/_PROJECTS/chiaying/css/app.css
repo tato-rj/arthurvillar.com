@@ -121,13 +121,14 @@ a:hover {
 .masthead {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100vh;
   padding: 200px 0;
   text-align: center;
   color: white;
   background: url("/_PROJECTS/chiaying/images/intro-bg.jpg") no-repeat bottom center scroll;
   background-color: black;
   background-size: cover;
+  background-position: 28% 0%;
 }
 
 .masthead .intro-body {
@@ -294,23 +295,64 @@ body {
   font-weight: 300;
 }
 
+#overlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 1000;
+}
+
+#overlay div {
+  height: 100%;
+}
+
+#overlay div h3 {
+  border-bottom: 2px solid #42DCA3;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+#overlay div h6 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 12px;
+}
+
 .flex-grow {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
 
-#mainNav .navbar-brand {
-  font-size: 1.8em;
+#mainNav {
+  z-index: 20;
 }
 
-#mainNav .navbar-shrink .navbar-brand {
-  font-size: 1.4em;
+#mainNav .navbar-toggler {
+  font-size: 20px;
+  padding: 11px;
+  color: white;
+  border: none;
+}
+
+#mainNav .navbar-brand {
+  font-size: 1.8em;
 }
 
 #mainNav .active {
   background: #42DCA3;
   color: black !important;
+}
+
+.navbar-shrink .navbar-brand {
+  font-size: 1.4em !important;
+}
+
+.navbar-shrink .nav-item a {
+  padding: 12px;
 }
 
 h2 {
@@ -320,7 +362,7 @@ h2 {
 }
 
 .content-section {
-  padding-top: 80px;
+  padding-top: 52px;
   padding-bottom: 100px;
 }
 
@@ -449,7 +491,6 @@ h2 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 400px;
 }
 
 #calendar .event > div:first-of-type p:first-of-type {
@@ -459,7 +500,6 @@ h2 {
 #calendar .event > div:nth-of-type(2) {
   padding: 26px 16px;
   background: #42DCA3;
-  min-width: 100px;
 }
 
 #calendar .event > div:nth-of-type(2) p {
@@ -470,7 +510,6 @@ h2 {
 #calendar .event > div:nth-of-type(3) {
   padding: 16px 8px;
   border: 1px solid;
-  width: 68px;
 }
 
 #calendar .event > div:nth-of-type(3) p {
@@ -488,9 +527,41 @@ footer {
   padding: 200px 0 80px 0;
 }
 
+footer p:last-of-type {
+  color: grey;
+}
+
 @media screen and (max-width: 786px) {
+  .navbar-brand {
+    font-size: 1.4em !important;
+  }
+
+  .nav-item a {
+    padding: 12px;
+  }
+
+  .content-section {
+    padding-top: 36px;
+  }
+
   .media .row > div {
     height: 400px;
+  }
+
+  #calendar .event .title {
+    font-size: 1.2em;
+  }
+
+  #calendar .event > div:not(:first-of-type) {
+    width: 50%;
+  }
+
+  #calendar .event > div:nth-of-type(2) {
+    padding: 26.6px 0;
+  }
+
+  #calendar .event > div:nth-of-type(3) {
+    padding: 17.6px 0;
   }
 }
 

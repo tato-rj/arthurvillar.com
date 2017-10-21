@@ -165,6 +165,46 @@ textarea {
   opacity: 1;
 }
 
+#nav .fa,
+.nav .fa {
+  font-size: 2em;
+  margin: 18px 24px;
+  height: 30px;
+  color: lightgrey;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#nav a:not(.profile):hover,
+.nav a:not(.profile):hover {
+  border-color: #f0ad4e;
+}
+
+#nav a:not(.profile):hover .fa:not(.fa-user),
+.nav a:not(.profile):hover .fa:not(.fa-user) {
+  color: #f0ad4e;
+}
+
+#nav .profile,
+.nav .profile {
+  border-color: #5bc0de;
+}
+
+#nav .fa-user,
+.nav .fa-user {
+  color: #5bc0de;
+}
+
+#nav .active,
+.nav .active {
+  border-color: #f0ad4e;
+}
+
+#nav .active .fa,
+.nav .active .fa {
+  color: #f0ad4e;
+}
+
 #nav {
   position: fixed;
   bottom: 0;
@@ -179,16 +219,6 @@ textarea {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-bottom: 4px solid transparent;
-}
-
-#nav a:hover,
-#nav .active {
-  border-color: #dc3645;
-}
-
-#nav a.profile:hover,
-#nav .active-profile {
-  border-color: #5bc0de;
 }
 
 #nav div {
@@ -242,8 +272,7 @@ textarea {
 }
 
 #welcome-container h1 {
-  font-size: 3.5rem;
-  margin-bottom: 18px;
+  font-size: 3rem;
 }
 
 #welcome-container .nav-icon {
@@ -253,6 +282,10 @@ textarea {
 
 #welcome-container small {
   color: lightgrey;
+}
+
+#welcome-container .fa {
+  margin: 16px 24px;
 }
 
 #welcome-container .social {

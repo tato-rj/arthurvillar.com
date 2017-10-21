@@ -15,25 +15,25 @@
                 <h1>arthurvillar<span class="text-warning">::welcome</span></h1>
             </div>
             {{-- Menu --}}
-            <div class="d-flex mt-4 align-items-center nav justify-content-center">
+            <div class="d-flex align-items-center nav justify-content-center">
                 <div>
-                    <a href="/music"><img src="/images/nav-icons/music.svg" class="nav-icon bw"></a>
-                    <small class="d-block mt-2">music</small>
+                    <a href="/music"><i class="fa fa-ticket" aria-hidden="true"></i></a>
+                    <small class="d-block">music</small>
                 </div>
                 <div>
-                    <a href="/code"><img src="/images/nav-icons/code.svg" class="nav-icon bw"></a>
-                    <small class="d-block mt-2">code</small>
+                    <a href="/code"><i class="fa fa-code" aria-hidden="true"></i></a>
+                    <small class="d-block">code</small>
                 </div>
                 
                 @if(auth()->check())
                     <div>
-                        <a href="/home"><img src="/images/nav-icons/user.svg" class="nav-icon profile"></a>
-                        <small class="d-block mt-2 text-info">logged in!</small>
+                        <a href="/home"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        <small class="d-block text-info">logged in!</small>
                     </div>   
                 @else
                     <div>
-                        <a href="/login"><img src="/images/nav-icons/login.svg" class="nav-icon bw"></a>
-                        <small class="d-block mt-2">login</small>
+                        <a href="/login"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                        <small class="d-block">login</small>
                     </div>
                 @endif
             </div>

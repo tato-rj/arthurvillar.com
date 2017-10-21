@@ -1,3 +1,41 @@
+#nav, .nav {
+	// a:not(.active-profile):hover, .active {
+	// 	border-color: $brand-warning;
+	// 	.fa {
+	// 		color: $brand-warning;
+	// 	}
+	// }
+	.fa {
+		font-size: 2em;
+		margin: 18px 24px;
+		height: 30px;
+		color: lightgrey;
+		transition: 0.2s;
+	}
+
+	a:not(.profile):hover {
+		border-color: $brand-warning;
+		.fa:not(.fa-user) {
+			color: $brand-warning;
+		}
+	}
+
+ 	.profile {
+		border-color: $brand-info;
+	}
+
+	.fa-user {
+		color: $brand-info;
+	}
+
+	.active{
+		border-color: $brand-warning;
+		.fa {
+			color: $brand-warning;
+		}
+	}
+}
+
 #nav {
 	position: fixed;
 	bottom: 0;
@@ -11,14 +49,10 @@
 		transition: 0.2s;
 	    border-bottom: 4px solid transparent;
 	}
-	
-	a:hover, .active {
-		border-color: $brand-danger;
-	}
 
-	a.profile:hover, .active-profile {
-		border-color: $brand-info;
-	}
+	// .fa-user {
+	// 	color: $brand-info;
+	// }
 
 	div {
 		width: 100%;
@@ -28,4 +62,5 @@
 		margin: 24px;
 		height: 30px;
 	}
+
 }
