@@ -33,3 +33,4 @@ Route::get('/contact', function() {
 */
 
 include __DIR__ . '/_PROJECTS/farmacia.php';
+include __DIR__ . '/_PROJECTS/chiaying.php';
