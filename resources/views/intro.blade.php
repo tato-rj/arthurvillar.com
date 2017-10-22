@@ -27,7 +27,7 @@
                 
                 @if(auth()->check())
                     <div>
-                        <a href="/home"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        <a href="{{ auth()->user()->path() }}/dashboard"><i class="fa fa-user" aria-hidden="true"></i></a>
                         <small class="d-block text-red">logged in!</small>
                     </div>   
                 @else

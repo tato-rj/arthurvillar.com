@@ -43,4 +43,9 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\Project');
     }
+
+    public function path()
+    {
+        return '/users/'.$this->username;
+    }
 }

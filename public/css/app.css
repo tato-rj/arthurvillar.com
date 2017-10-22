@@ -55,6 +55,15 @@ body {
   color: #e62739 !important;
 }
 
+.btn:focus,
+.btn:active,
+a:focus,
+a:active,
+button:focus,
+button:active {
+  outline: none !important;
+}
+
 #music-container,
 #contact-container,
 #code-container {
