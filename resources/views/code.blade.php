@@ -88,7 +88,7 @@
     {{-- Frameworks and Libraries --}}
     <div class="row" id="libraries">
         <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 offset-lg-2 offset-md-1 mb-7">
-            <h5>Some of the <strong class="text-info">frameworks</strong> and <strong class="text-info">libraries</strong> I use</h5>
+            <h5>Some of the <span class="text-red">frameworks</span> and <span class="text-red">libraries</span> I use</h5>
             <div class="d-flex align-items-center justify-content-center flex-wrap">
                 <a href="https://laravel.com/" target="_blank"><img src="/images/libraries/laravel.svg" title="Laravel" class="bw"></a>
                 <a href="https://vuejs.org/" target="_blank"><img src="/images/libraries/vue.svg" title="Vue" class="bw"></a>

@@ -15,7 +15,7 @@
         @slot('login')
         @endslot
         @slot('user')
-            active-profile
+            active
         @endslot
         @slot('contact')
         @endslot
@@ -32,14 +32,14 @@
     @endcomponent
     <div class="row">
         <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 offset-lg-1 offset-md-1">
-            <p>Hi <strong>{{ Auth::user()->first_name }}</strong>! Here you can find the projects we are currently working on. See below a list of those projects and quick links to edit your account. To interact with your website just open a tab and click on the <span class="text-info">preview</span> button. Inside each tab you will also find a short description of the project, current task I am working on and its deadline.</p>
+            <p>Hi <strong>{{ Auth::user()->first_name }}</strong>! Here you can find the projects we are currently working on. See below a list of those projects and quick links to edit your account. To interact with your website just open a tab and click on the <span class="text-red">preview</span> button. Inside each tab you will also find a short description of the project, current task I am working on and its deadline.</p>
         </div>
     </div>
     {{-- Dashboard --}}
     <div class="container mb-8" id="dashboard">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
-                <h6 class="bg-info"><i class="fa fa-folder-open" aria-hidden="true"></i><strong>Projects</strong></h6>
+            <div class="col-lg-9 col-md-6 col-sm-12 col-sm-12">
+                <h6 class="bg-red text-white"><i class="fa fa-folder-open" aria-hidden="true"></i><strong>MY PROJECTS</strong></h6>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
                     @forelse ($projects as $project)
                         <div class="card">
@@ -50,7 +50,7 @@
                             </a>
                             <div id="collapse{{$loop->iteration}}" class="collapse" role="tabpanel" aria-labelledby="heading{{$loop->iteration}}">
                                 <div class="card-block">
-                                    <a href="{{$project->path()}}" class="btn btn-sm btn-info pull-right"><i class="fa fa-external-link-square" aria-hidden="true"></i>preview</a>
+                                    <a href="{{$project->path()}}" class="btn btn-sm btn-red pull-right"><i class="fa fa-external-link-square" aria-hidden="true"></i>preview</a>
                                     <ul>
                                         <li>
                                             <i class="fa fa-address-card" aria-hidden="true"></i><strong>Name:</strong></strong> {{$project->user->fullName()}}
@@ -76,15 +76,14 @@
                             </div>
                         </div>
                     @empty
-                        <p>You have no projects</p>
+                        <p class="mt-2">You have no projects</p>
                     @endforelse
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-sm-12" id="account">
-                <h6 class="bg-warning"><i class="fa fa-briefcase" aria-hidden="true"></i><strong>My Account</strong></h6>
-                <ul>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-sm-12" id="profile">
+                <ul class="text-red">
                     <li>
-                        <a href="/users/{{ Auth::user()->username }}"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
+                        <a href="/users/{{ Auth::user()->username }}"><i class="fa fa-cog" aria-hidden="true"></i>Profile settings</a>
                     </li>
                     <li>
                         <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
