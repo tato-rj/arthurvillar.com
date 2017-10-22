@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use App\User;
 
 class UsersController extends Controller
@@ -44,9 +45,16 @@ class UsersController extends Controller
         //
     }
 
-    public function destroy(Request $request, $id)
+    public function destroy(Request $request, $username)
     {
-        //
+        $request->validate([
+            'password' => 'required'
+        ]);
+
+        if (Hash::check($request->password, auth()->user()->password)) {
+            return 'Good to go';
+        }
+        return redirect()->back()->withErrors(['confirm_password', 'Wrong password!']);;
     }
 
 }

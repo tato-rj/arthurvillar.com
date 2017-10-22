@@ -10,6 +10,8 @@ Auth::routes();
 
 Route::get('/users/{user}/dashboard', 'UsersController@index')->name('home');
 
+Route::delete('/users/{user}', 'UsersController@destroy');
+
 Route::get('/', function () {
     return view('intro');
 });

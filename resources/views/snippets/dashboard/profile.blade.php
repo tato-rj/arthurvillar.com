@@ -31,8 +31,9 @@
             </div>
             <div class="modal-body">
 
-                <form class="" method="POST" action="">
+                <form class="" method="POST" action="{{ auth()->user()->path() }}">
                     {{ csrf_field() }}
+                    {{ method_field('DELETE') }}
                     <label for="password">Please type your password</label>
                     <div class="form-group">
                         <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
