@@ -1,8 +1,8 @@
 #nav, .nav {
 	// a:not(.active-profile):hover, .active {
-	// 	border-color: $brand-warning;
+	// 	border-color: $theme-red;
 	// 	.fa {
-	// 		color: $brand-warning;
+	// 		color: $theme-red;
 	// 	}
 	// }
 	.fa {
@@ -14,24 +14,24 @@
 	}
 
 	a:not(.profile):hover {
-		border-color: $brand-warning;
+		border-color: $theme-red;
 		.fa:not(.fa-user) {
-			color: $brand-warning;
+			color: $theme-red;
 		}
 	}
 
  	.profile {
-		border-color: $brand-info;
+		border-color: $theme-green;
 	}
 
 	.fa-user {
-		color: $brand-info;
+		color: $theme-green;
 	}
 
 	.active{
-		border-color: $brand-warning;
+		border-color: $theme-red;
 		.fa {
-			color: $brand-warning;
+			color: $theme-red;
 		}
 	}
 }
@@ -51,7 +51,7 @@
 	}
 
 	// .fa-user {
-	// 	color: $brand-info;
+	// 	color: $theme-green;
 	// }
 
 	div {

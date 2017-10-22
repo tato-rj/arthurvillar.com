@@ -1,7 +1,11 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 200;
-	border-top: 2px solid $brand-warning;
+	border-top: 2px solid $theme-red;
+}
+
+.text-warning {
+	color: $theme-red!important;
 }
 
 #music-container, #contact-container, #code-container {
