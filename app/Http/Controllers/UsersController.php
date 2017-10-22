@@ -16,6 +16,8 @@ class UsersController extends Controller
 
     public function index(User $user)
     {
+        $this->authorize('view', $user);
+        
         $projects = $user->projects;
         return view('dashboard', compact('projects'));
     }
@@ -52,7 +54,8 @@ class UsersController extends Controller
         ]);
 
         if (Hash::check($request->password, auth()->user()->password)) {
-            return 'Good to go';
+            auth()->user()->delete();
+            return redirect('/');
         }
         return redirect()->back()->withErrors(['confirm_password', 'Wrong password!']);;
     }
