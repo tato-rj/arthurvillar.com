@@ -19,8 +19,12 @@ class UsersController extends Controller
     {
         $this->authorize('view', $user);
         
+<<<<<<< HEAD
         $projects = $this->getProjects($user);
 
+=======
+        $projects = $user->projects;
+>>>>>>> 25967fbfb641ee113d3555f2d1410721ad76e2b1
         return view('dashboard', compact('projects'));
     }
 
