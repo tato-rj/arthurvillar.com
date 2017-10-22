@@ -28,7 +28,7 @@
                 @if(auth()->check())
                     <div>
                         <a href="/home"><i class="fa fa-user" aria-hidden="true"></i></a>
-                        <small class="d-block text-info">logged in!</small>
+                        <small class="d-block text-red">logged in!</small>
                     </div>   
                 @else
                     <div>

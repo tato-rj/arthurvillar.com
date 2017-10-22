@@ -53,6 +53,10 @@ button, input, textarea {
 	display: none;
 }
 
+.btn, .jumbotron, input, textarea {
+	border-radius: 0!important;
+}
+
 .mb-6 {
     margin-bottom: 4rem!important;
 }
@@ -84,4 +88,17 @@ button, input, textarea {
 	-webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
 	filter: grayscale(0);
 	opacity: 1;		
+}
+
+.bg-red {
+	background: $theme-red;
+}
+
+.text-red {
+	color: $theme-red;
+}
+
+.btn-red {
+	color: white!important;
+	background: $theme-red;
 }

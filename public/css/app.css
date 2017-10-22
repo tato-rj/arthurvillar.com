@@ -48,11 +48,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  border-top: 2px solid #fc4a1a;
+  border-top: 2px solid #e62739;
 }
 
 .text-warning {
-  color: #fc4a1a !important;
+  color: #e62739 !important;
 }
 
 #music-container,
@@ -130,6 +130,13 @@ textarea {
   display: none;
 }
 
+.btn,
+.jumbotron,
+input,
+textarea {
+  border-radius: 0 !important;
+}
+
 .mb-6 {
   margin-bottom: 4rem !important;
 }
@@ -169,6 +176,19 @@ textarea {
   opacity: 1;
 }
 
+.bg-red {
+  background: #e62739;
+}
+
+.text-red {
+  color: #e62739;
+}
+
+.btn-red {
+  color: white !important;
+  background: #e62739;
+}
+
 #nav .fa,
 .nav .fa {
   font-size: 2em;
@@ -179,34 +199,18 @@ textarea {
   transition: 0.2s;
 }
 
-#nav a:not(.profile):hover,
-.nav a:not(.profile):hover {
-  border-color: #fc4a1a;
-}
-
-#nav a:not(.profile):hover .fa:not(.fa-user),
-.nav a:not(.profile):hover .fa:not(.fa-user) {
-  color: #fc4a1a;
-}
-
-#nav .profile,
-.nav .profile {
-  border-color: #4abdac;
-}
-
-#nav .fa-user,
-.nav .fa-user {
-  color: #4abdac;
-}
-
+#nav a:hover,
 #nav .active,
+.nav a:hover,
 .nav .active {
-  border-color: #fc4a1a;
+  border-color: #e62739;
 }
 
+#nav a:hover .fa,
 #nav .active .fa,
+.nav a:hover .fa,
 .nav .active .fa {
-  color: #fc4a1a;
+  color: #e62739;
 }
 
 #nav {
@@ -516,7 +520,7 @@ textarea {
 #login-container button[type="submit"],
 #contact-container button[type="submit"] {
   cursor: pointer;
-  background: #fc4a1a;
+  background: #e62739;
   color: white;
   font-family: inherit;
 }
@@ -545,8 +549,7 @@ textarea {
 }
 
 #dashboard h6 {
-  color: white;
-  padding: 6px;
+  padding: 10px 12px;
   margin: 0;
 }
 
@@ -559,16 +562,24 @@ textarea {
   text-decoration: none;
 }
 
-#dashboard #account li {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+#dashboard #profile ul {
+  background: rgba(230, 39, 57, 0.05);
+  border-top: 2px solid;
 }
 
-#dashboard #account li:hover {
-  color: black;
+#dashboard #profile li {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: .5rem 1rem;
+}
+
+#dashboard #profile li:hover {
+  color: white;
+  background: #e62739;
 }
 
 #dashboard ul {
+  margin: 0;
   padding: 0;
 }
 
@@ -578,7 +589,6 @@ textarea {
   text-indent: 0;
   padding: 4px 8px;
   font-size: 0.9em;
-  color: grey;
 }
 
 #dashboard ul li small,
@@ -604,9 +614,10 @@ textarea {
 }
 
 #dashboard .card .card-header {
-  padding: .25rem 1rem;
+  padding: .5rem 1.25rem;
   color: black;
-  background: rgba(0, 0, 0, 0.02);
+  border: 0;
+  background: transparent;
 }
 
 #dashboard .card .card-header:hover {
@@ -621,8 +632,8 @@ textarea {
   color: grey;
 }
 
-#dashboard .btn {
-  color: white;
+#dashboard .card:nth-child(odd) .card-header {
+  background: rgba(0, 0, 0, 0.025);
 }
 
 @media screen and (max-width: 786px) {
