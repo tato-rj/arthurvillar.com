@@ -4,6 +4,7 @@ namespace App\Mail;
 
 use Mail;
 use App\Mail\Contact;
+use App\Mail\Feedback;
 use App\Http\Controllers\Controller;
 use App\Mail\Validate;
 use Illuminate\Http\Request;
@@ -28,6 +29,7 @@ class EmailFactory extends Controller
 	public function mailTo($email)
 	{
 		Mail::to($email)->send(new Contact($this->data));
+		Mail::to($this->data['email'])->send(new Feedback($this->data));
 		return $this;
 	}
 
