@@ -56,13 +56,6 @@
                     <a href="{{ route('password.request') }}" target="_blank">Forgot password?</a>
                 </div>
             </form>
-            @if ($errors->has('email'))
-            <div class="alert-container">
-                <div class="alert alert-danger" role="alert">
-                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <strong>Ops!</strong> Something went wrong...
-                </div>
-            </div>
-            @endif
         </div>
     </div>
 </div>

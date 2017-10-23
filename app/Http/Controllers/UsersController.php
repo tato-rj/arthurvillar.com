@@ -57,9 +57,10 @@ class UsersController extends Controller
 
         if (Hash::check($request->password, auth()->user()->password)) {
             auth()->user()->delete();
-            return redirect('/');
+            return redirect('/')->with('feedback', 'Your profile has been deleted');
         }
-        return redirect()->back()->withErrors(['confirm_password', 'Wrong password!']);;
+
+        return redirect()->back()->withErrors(['Wrong password!']);
     }
 
     public function getProjects($user)

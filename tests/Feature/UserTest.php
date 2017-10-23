@@ -45,11 +45,29 @@ class UserTest extends TestCase
         ]);
         $this->signIn($user);
 
-        $this->delete($user->path(), [
+        $response = $this->delete($user->path(), [
             'password' => 'mypass'
         ]);
+
+        $response->assertRedirect('/')->assertSessionHas('feedback');
         
         $this->assertDatabaseMissing('users', $user->toArray());
     }
 
+    /** @test */
+    public function users_get_feedback_when_deleting_profile_with_wrong_password()
+    {
+        $user = create('App\User', [
+            'password' => Hash::make('mypass')
+        ]);
+        $this->signIn($user);
+
+        $response = $this->delete($user->path(), [
+            'password' => 'wrongpass'
+        ]);
+
+        $response->assertSessionHasErrors();
+        
+        $this->assertDatabaseHas('users', $user->toArray());
+    }
 }
