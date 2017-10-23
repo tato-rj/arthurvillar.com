@@ -39,6 +39,17 @@ button, input, textarea {
 	text-indent: 0;
 }
 
+.alert {
+	display: none;
+}
+
+.alert-container {
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 .form-title {
 	text-indent: 0;
 	margin-bottom: 18px;

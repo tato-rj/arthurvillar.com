@@ -84,6 +84,10 @@ $('.card-header').on('click', function () {
 	$(this).children('.fa').toggleClass('rotate-down');
 });
 
+if ($('.alert').length) {
+	$('.alert').addClass('bounce-down').show().delay(4000).fadeOut();
+}
+
 /***/ }),
 /* 2 */
 /***/ (function(module, exports) {

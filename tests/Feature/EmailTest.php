@@ -22,7 +22,6 @@ class EmailTest extends TestCase
             'email' => $faker->email,
             'message' => $faker->paragraph
         ];
-
         $this->post('/contact', $data)->assertSessionHas('email', 'Thank you for your contact!');
     }
 }
