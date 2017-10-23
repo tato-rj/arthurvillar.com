@@ -1,0 +1,8 @@
+TO DO:
+
+- Handle feedback status from flash messages on:
+	Send email from contact form
+	Request reset password link
+	Reset password form
+	Login
+	Register
