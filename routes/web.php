@@ -28,6 +28,8 @@ Route::get('/contact', function() {
 	return view('contact');
 });
 
+Route::post('/contact', 'EmailsController@send');
+
 /*
 |--------------------------------------------------------------------------
 | Projects Routes
