@@ -2,7 +2,7 @@
     {{-- Header --}}
     @slot('header')
         @component('mail::header', ['url' => config('app.url')])
-            New Contact from ArthurVillar.com
+            arthurvillar<span>::contact</span>
         @endcomponent
     @endslot
 
