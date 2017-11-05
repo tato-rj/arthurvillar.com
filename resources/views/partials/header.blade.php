@@ -8,5 +8,5 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="{{ asset('css/app.css') }}?version=12" rel="stylesheet" type="text/css">
-    <script src="https://use.fontawesome.com/266720d991.js"></script>
+    <link href="{{ asset('css/font-awesome.min.css') }}?version=12" rel="stylesheet" type="text/css">
 </head>
