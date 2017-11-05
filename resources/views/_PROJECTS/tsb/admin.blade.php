@@ -14,11 +14,11 @@
   <title>TheScienceBreaker - Admin</title>
 
   <!-- Custom styles for this template-->
-  <link href="{{ asset('_projects/tsb/css/tables.admin.css') }}" rel="stylesheet" type="text/css">
-  <link href="{{ asset('_projects/tsb/css/admin.min.css') }}" rel="stylesheet" type="text/css">
-  <link href="{{ asset('_projects/tsb/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
-  <link href="{{ asset('_projects/tsb/css/app.css') }}" rel="stylesheet" type="text/css">
-  <link href="{{ asset('_projects/tsb/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css"></head>
+  <link href="{{ asset('_PROJECTS/tsb/css/tables.admin.css') }}" rel="stylesheet" type="text/css">
+  <link href="{{ asset('_PROJECTS/tsb/css/admin.min.css') }}" rel="stylesheet" type="text/css">
+  <link href="{{ asset('_PROJECTS/tsb/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+  <link href="{{ asset('_PROJECTS/tsb/css/app.css') }}" rel="stylesheet" type="text/css">
+  <link href="{{ asset('_PROJECTS/tsb/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css"></head>
 
 <body class="fixed-nav sticky-footer bg-default" id="page-top">
 
@@ -149,7 +149,7 @@
     <div class="container-fluid mb-4">
       
       <ol class="breadcrumb">
-	<li class="breadcrumb-item text-orange"><strong>Welcome Arthur!</strong></li>
+	<li class="breadcrumb-item text-orange"><strong>Welcome Massimo!</strong></li>
 	<li class="breadcrumb-item active hidden-xs-down">Navigate on the menu to manage the database</li>
 </ol>
 
@@ -221,17 +221,17 @@
     </div>
   </div>
 </div>    <!-- Bootstrap core JavaScript-->
-    <script src="{{ asset('_projects/tsb/js/admin/jquery.min.js') }}"></script>
-    <script src="{{ asset('_projects/tsb/js/admin/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('_PROJECTS/tsb/js/admin/jquery.min.js') }}"></script>
+    <script src="{{ asset('_PROJECTS/tsb/js/admin/bootstrap.bundle.min.js') }}"></script>
     <!-- Core plugin JavaScript-->
-    <script src="{{ asset('_projects/tsb/js/admin/jquery.easing.min.js') }}"></script>
+    <script src="{{ asset('_PROJECTS/tsb/js/admin/jquery.easing.min.js') }}"></script>
     <!-- Page level plugin JavaScript-->
-    <script src="{{ asset('_projects/tsb/js/admin/Chart.min.js') }}"></script>
-    <script src="{{ asset('_projects/tsb/js/admin/jquery.dataTables.js') }}"></script>
-    <script src="{{ asset('_projects/tsb/js/admin/dataTables.bootstrap4.js') }}"></script>
+    <script src="{{ asset('_PROJECTS/tsb/js/admin/Chart.min.js') }}"></script>
+    <script src="{{ asset('_PROJECTS/tsb/js/admin/jquery.dataTables.js') }}"></script>
+    <script src="{{ asset('_PROJECTS/tsb/js/admin/dataTables.bootstrap4.js') }}"></script>
     <!-- Custom scripts for all pages-->
-    <script src="{{ asset('_projects/tsb/js/admin/sb-admin.min.js') }}"></script>
-    <script src="{{ asset('_projects/tsb/js/app.js') }}"></script>    
+    <script src="{{ asset('_PROJECTS/tsb/js/admin/sb-admin.min.js') }}"></script>
+    <script src="{{ asset('_PROJECTS/tsb/js/app.js') }}"></script>    
       
   </div>
 

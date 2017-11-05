@@ -9,9 +9,8 @@
         <meta name="csrf-token" content="nyFO0tnJ4vPP13WtkZyLRfewqWZoM1EhD4Ugcdhj">
         
         <title>TheScienceBreaker</title>
-        <script src="{{ asset('_projects/tsb/js/pace.min.js') }}"></script>
-        <link href="{{ asset('_projects/tsb/css/app.css') }}" rel="stylesheet" type="text/css">
-        <script src="https://use.fontawesome.com/266720d991.js"></script>
+        <link href="{{ asset('_PROJECTS/tsb/css/app.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('_PROJECTS/tsb/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
     </head>
     <body id="page-top">
 
@@ -21,7 +20,7 @@
 			<div class="row">
 				<div class="col-10">
 					<div class="d-flex align-items-center">
-						<img src="{{ asset('_projects/tsb/images/logo.svg') }}" id="title">
+						<img src="{{ asset('_PROJECTS/tsb/images/logo.svg') }}" id="title">
 						<div id="buttons-container" class="ml-5">
 							<a href="/contact/submit-your-break" class="btn btn-block"><i class="fa fa-upload mr-2" aria-hidden="true"></i><span>SUBMIT YOUR BREAK</span></a>
 							<a href="/contact/ask-a-question" class="btn btn-block"><i class="fa fa-question-circle-o mr-2" aria-hidden="true"></i><span>ASK A QUESTION</span></a>
@@ -30,7 +29,7 @@
 				</div>
 				<div class="col-2" id="partner-container">
 					<a href="http://www.unige.ch/" target="_blank">
-						<img src="{{ asset('_projects/tsb/images/university-partner.svg') }}">
+						<img src="{{ asset('_PROJECTS/tsb/images/university-partner.svg') }}">
 					</a>
 				</div>				
 			</div>
@@ -101,10 +100,7 @@
 	</div>	
 </header>
     <main>
-        
-<div id="overlay">
-	<img src="{{ asset('_projects/tsb/images/logo-small.svg') }}">
-</div>
+
 <div class="container">
 	
 	<div class="row mt-5">
@@ -120,12 +116,12 @@
 				<h5 class="mb-2 mx-auto"><strong>TheScienceBreaker <span class="text-orange">APP</span></strong></h5>
 		
 				<div class="col-lg-6 col-md-12 mt-2 hidden-sm-down">
-					<img src="{{ asset('_projects/tsb/images/ios-app/app.svg') }}">
+					<img src="{{ asset('_PROJECTS/tsb/images/ios-app/app.svg') }}">
 				</div>
 				<div class="p-2 col-lg-6 col-md-12">
 					<p>Our iOS app is coming out soon, <strong>stay tuned</strong>!</p>
 					<a href="https://www.facebook.com/sciencebreaker/?fref=ts" target="_blank">
-						<img id="apple-store" src="{{ asset('_projects/tsb/images/ios-app/apple-store.svg') }}">
+						<img id="apple-store" src="{{ asset('_PROJECTS/tsb/images/ios-app/apple-store.svg') }}">
 					</a>
 				</div>
 			</div>		
@@ -141,7 +137,7 @@
 					<table id="latest-breaks">
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/microbiology.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/microbiology.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -156,7 +152,7 @@
 							</tr>					
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/evolution-behaviour.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/evolution-behaviour.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -171,7 +167,7 @@
 							</tr>					
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/evolution-behaviour.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/evolution-behaviour.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -188,7 +184,7 @@
 							</tr>					
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/evolution-behaviour.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/evolution-behaviour.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -203,7 +199,7 @@
 							</tr>					
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/plant-biology.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/plant-biology.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -227,7 +223,7 @@
 					<table id="latest-breaks">
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/microbiology.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/microbiology.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -242,7 +238,7 @@
 							</tr>					
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/health-physiology.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/health-physiology.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -259,7 +255,7 @@
 							</tr>					
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/earth-space.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/earth-space.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -274,7 +270,7 @@
 							</tr>					
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/health-physiology.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/health-physiology.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -289,7 +285,7 @@
 							</tr>					
 													<tr>
 								<th>
-									<img src="{{ asset('_projects/tsb/images/categories-icons/health-physiology.svg') }}">
+									<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/health-physiology.svg') }}">
 								</th>
 								<td>
 									<p>
@@ -319,7 +315,7 @@
 		<div class="d-flex flex-row justify-content-center align-items-center flex-wrap" id="subject-icons">
 							<a href="/breaks/earth-space">
 				<div class="icon-wrapper">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/earth-space.svg') }}">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/earth-space.svg') }}">
 					<div class="d-flex align-items-center justify-content-center flex-column text-center">
 						<h5><strong>Earth &amp; Space</strong></h5>
 						<h5><strong>9 Breaks</strong></h5>
@@ -328,7 +324,7 @@
 				</a>
 							<a href="/breaks/evolution-behaviour">
 				<div class="icon-wrapper">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/evolution-behaviour.svg') }}">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/evolution-behaviour.svg') }}">
 					<div class="d-flex align-items-center justify-content-center flex-column text-center">
 						<h5><strong>Evolution &amp; Behaviour</strong></h5>
 						<h5><strong>21 Breaks</strong></h5>
@@ -337,7 +333,7 @@
 				</a>
 							<a href="/breaks/health-physiology">
 				<div class="icon-wrapper">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/health-physiology.svg') }}">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/health-physiology.svg') }}">
 					<div class="d-flex align-items-center justify-content-center flex-column text-center">
 						<h5><strong>Health &amp; Physiology</strong></h5>
 						<h5><strong>15 Breaks</strong></h5>
@@ -346,7 +342,7 @@
 				</a>
 							<a href="/breaks/maths-physics-chemistry">
 				<div class="icon-wrapper">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/maths-physics-chemistry.svg') }}">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/maths-physics-chemistry.svg') }}">
 					<div class="d-flex align-items-center justify-content-center flex-column text-center">
 						<h5><strong>Maths, Physics &amp; Chemistry</strong></h5>
 						<h5><strong>2 Breaks</strong></h5>
@@ -355,7 +351,7 @@
 				</a>
 							<a href="/breaks/microbiology">
 				<div class="icon-wrapper">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/microbiology.svg') }}">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/microbiology.svg') }}">
 					<div class="d-flex align-items-center justify-content-center flex-column text-center">
 						<h5><strong>Microbiology</strong></h5>
 						<h5><strong>6 Breaks</strong></h5>
@@ -364,7 +360,7 @@
 				</a>
 							<a href="/breaks/neurobiology">
 				<div class="icon-wrapper">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/neurobiology.svg') }}">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/neurobiology.svg') }}">
 					<div class="d-flex align-items-center justify-content-center flex-column text-center">
 						<h5><strong>Neurobiology</strong></h5>
 						<h5><strong>4 Breaks</strong></h5>
@@ -373,7 +369,7 @@
 				</a>
 							<a href="/breaks/plant-biology">
 				<div class="icon-wrapper">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/plant-biology.svg') }}">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/plant-biology.svg') }}">
 					<div class="d-flex align-items-center justify-content-center flex-column text-center">
 						<h5><strong>Plant Biology</strong></h5>
 						<h5><strong>7 Breaks</strong></h5>

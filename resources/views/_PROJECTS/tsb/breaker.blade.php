@@ -9,9 +9,8 @@
         <meta name="csrf-token" content="nyFO0tnJ4vPP13WtkZyLRfewqWZoM1EhD4Ugcdhj">
         
         <title>TheScienceBreaker</title>
-        <script src="{{ asset('_projects/tsb/js/pace.min.js') }}"></script>
-        <link href="{{ asset('_projects/tsb/css/app.css') }}" rel="stylesheet" type="text/css">
-        <script src="https://use.fontawesome.com/266720d991.js"></script>
+        <link href="{{ asset('_PROJECTS/tsb/css/app.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('_PROJECTS/tsb/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
     </head>
     <body id="page-top">
 
@@ -21,7 +20,7 @@
 			<div class="row">
 				<div class="col-10">
 					<div class="d-flex align-items-center">
-						<img src="{{ asset('_projects/tsb/images/logo.svg') }}" id="title">
+						<img src="{{ asset('_PROJECTS/tsb/images/logo.svg') }}" id="title">
 						<div id="buttons-container" class="ml-5">
 							<a href="/contact/submit-your-break" class="btn btn-block"><i class="fa fa-upload mr-2" aria-hidden="true"></i><span>SUBMIT YOUR BREAK</span></a>
 							<a href="/contact/ask-a-question" class="btn btn-block"><i class="fa fa-question-circle-o mr-2" aria-hidden="true"></i><span>ASK A QUESTION</span></a>
@@ -30,7 +29,7 @@
 				</div>
 				<div class="col-2" id="partner-container">
 					<a href="http://www.unige.ch/" target="_blank">
-						<img src="{{ asset('_projects/tsb/images/university-partner.svg') }}">
+						<img src="{{ asset('_PROJECTS/tsb/images/university-partner.svg') }}">
 					</a>
 				</div>				
 			</div>
@@ -147,7 +146,7 @@
 		<div>
 			<strong><p class="mb-3">Editor's picks</p></strong>
 							<div class="d-flex align-items-center mb-3">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/neurobiology.svg') }}" class="mr-3">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/neurobiology.svg') }}" class="mr-3">
 					<div>
 						<small class="d-block mb-1">
 							<span><a href="/breaks/neurobiology/where-is-the-engram">Where is the Engram?</a></span>
@@ -163,7 +162,7 @@
 					</div>
 				</div>
 							<div class="d-flex align-items-center mb-3">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/microbiology.svg') }}" class="mr-3">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/microbiology.svg') }}" class="mr-3">
 					<div>
 						<small class="d-block mb-1">
 							<span><a href="/breaks/microbiology/fighting-back-antibiotic-resistance-a-new-hope-from-the-soil">Fighting back antibiotic resistance: a new hope from the soil</a></span>
@@ -177,7 +176,7 @@
 					</div>
 				</div>
 							<div class="d-flex align-items-center mb-3">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/evolution-behaviour.svg') }}" class="mr-3">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/evolution-behaviour.svg') }}" class="mr-3">
 					<div>
 						<small class="d-block mb-1">
 							<span><a href="/breaks/evolution-behaviour/who-is-really-really-smart-early-differences-in-boys-and-girls-assumptions-about-intelligence">“Who is really, really smart?”  Early differences in boys’ and girls’ assumptions about intelligence</a></span>
@@ -191,7 +190,7 @@
 					</div>
 				</div>
 							<div class="d-flex align-items-center mb-3">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/health-physiology.svg') }}" class="mr-3">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/health-physiology.svg') }}" class="mr-3">
 					<div>
 						<small class="d-block mb-1">
 							<span><a href="/breaks/health-physiology/driving-down-malaria">Driving down malaria</a></span>
@@ -212,7 +211,7 @@
 		<div>
 			<strong><p class="mb-3">Most popular</p></strong>
 							<div class="d-flex align-items-center mb-3">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/microbiology.svg') }}" class="mr-3">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/microbiology.svg') }}" class="mr-3">
 					<div>
 						<small class="d-block mb-1">
 							<span><a href="/breaks/microbiology/red-in-tooth-and-claw-another-weapon-against-antibiotic-resistance">Red in Tooth and Claw: another weapon against antibiotic resistance</a></span>
@@ -226,7 +225,7 @@
 					</div>
 				</div>
 							<div class="d-flex align-items-center mb-3">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/health-physiology.svg') }}" class="mr-3">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/health-physiology.svg') }}" class="mr-3">
 					<div>
 						<small class="d-block mb-1">
 							<span><a href="/breaks/health-physiology/one-run-a-day-keeps-thecancer-away">One run a day keeps the...cancer away!</a></span>
@@ -242,7 +241,7 @@
 					</div>
 				</div>
 							<div class="d-flex align-items-center mb-3">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/earth-space.svg') }}" class="mr-3">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/earth-space.svg') }}" class="mr-3">
 					<div>
 						<small class="d-block mb-1">
 							<span><a href="/breaks/earth-space/tara-oceans-expedition-sequences-the-ocean">Tara Oceans Expedition sequences the ocean</a></span>
@@ -256,7 +255,7 @@
 					</div>
 				</div>
 							<div class="d-flex align-items-center mb-3">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/health-physiology.svg') }}" class="mr-3">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/health-physiology.svg') }}" class="mr-3">
 					<div>
 						<small class="d-block mb-1">
 							<span><a href="/breaks/health-physiology/the-colour-beige-heating-up-the-fat">The colour beige: heating up the fat</a></span>
@@ -270,7 +269,7 @@
 					</div>
 				</div>
 							<div class="d-flex align-items-center mb-3">
-					<img src="{{ asset('_projects/tsb/images/categories-icons/health-physiology.svg') }}" class="mr-3">
+					<img src="{{ asset('_PROJECTS/tsb/images/categories-icons/health-physiology.svg') }}" class="mr-3">
 					<div>
 						<small class="d-block mb-1">
 							<span><a href="/breaks/health-physiology/a-weekend-camping-is-just-what-the-doctor-ordered">A Weekend Camping is Just What the Doctor Ordered</a></span>
