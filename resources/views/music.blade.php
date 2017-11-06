@@ -42,7 +42,7 @@
     		<figure class="figure">
     			<img src="/images/wtc.png" class="figure-img img-fluid rounded">
     			<figcaption class="figure-caption">
-    				<a href="https://www.amazon.com/exec/obidos/ASIN/B00BJY9BZG/ref=nosim/musicontheweb02" target="_blank" class="btn btn-block btn-secondary"><img src="/images/amazon.svg" id="amazon-icon"></a>
+    				<a href="https://www.amazon.com/exec/obidos/ASIN/B00BJY9BZG/ref=nosim/musicontheweb02" target="_blank" class="btn btn-block"><img src="/images/amazon.svg" id="amazon-icon"></a>
     			</figcaption>
     		</figure>    		
     	</div>
