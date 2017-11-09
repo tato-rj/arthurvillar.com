@@ -30,6 +30,12 @@ Route::get('/contact', function() {
 
 Route::post('/contact', 'EmailsController@send');
 
+// Route::get('/file', function() {
+// 	return view('file');
+// });
+
+// Route::post('/file', 'ProjectsController@file');
+
 /*
 |--------------------------------------------------------------------------
 | Projects Routes
