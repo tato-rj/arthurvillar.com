@@ -30,11 +30,10 @@ Route::get('/contact', function() {
 
 Route::post('/contact', 'EmailsController@send');
 
-// Route::get('/file', function() {
-// 	return view('file');
-// });
+Route::get('/psicanalise', function(){
 
-// Route::post('/file', 'ProjectsController@file');
+	return view('_PROJECTS/psicanalise/index');
+});
 
 /*
 |--------------------------------------------------------------------------

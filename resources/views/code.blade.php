@@ -43,7 +43,7 @@
     		<span class="label text-white bg-warning">website</span>
     		<div class="d-flex align-items-center justify-content-center flex-column overlay">
     			<h2><strong>TheScienceBreaker</strong></h2>
-				<a href="#" class="btn hvr-sweep-to-right"><strong>View project</strong></a>
+				<a target="_blank" href="https://thesciencebreaker.com" class="btn hvr-sweep-to-right"><strong>View project</strong></a>
     		</div>
     	</div>
     	{{-- Small --}}
@@ -52,8 +52,8 @@
     		<span class="label text-white bg-primary">mobile app</span>
     		<div class="d-flex align-items-center justify-content-center flex-column overlay">
     			<h2><strong>MusicEasy</strong></h2>
-				<a href="#" class="btn-store"><img src="/images/portfolio/apple-store.svg"></a>
-				<a href="#" class="btn-store"><img src="/images/portfolio/google-store.svg"></a>
+				<a target="_blank" href="#" class="btn-store"><img src="/images/portfolio/apple-store.svg"></a>
+				<a target="_blank" href="#" class="btn-store"><img src="/images/portfolio/google-store.svg"></a>
     		</div>
     	</div>
     	{{-- Small --}}
@@ -62,7 +62,7 @@
     		<span class="label text-white bg-warning">website</span>
     		<div class="d-flex align-items-center justify-content-center flex-column overlay">
     			<h2><strong>HMTA</strong></h2>
-				<a href="#" class="btn hvr-sweep-to-right"><strong>View project</strong></a>
+				<a target="_blank" href="http://www.hartfordmusicteachers.org" class="btn hvr-sweep-to-right"><strong>View project</strong></a>
     		</div>
     	</div>
     	{{-- Small --}}
@@ -71,8 +71,8 @@
     		<span class="label text-white bg-primary">mobile app</span>
     		<div class="d-flex align-items-center justify-content-center flex-column overlay">
     			<h2><strong>CoolFlip</strong></h2>
-				<a href="#" class="btn-store"><img src="/images/portfolio/apple-store.svg"></a>
-				<a href="#" class="btn-store"><img src="/images/portfolio/google-store.svg"></a>
+				<a target="_blank" href="#" class="btn-store"><img src="/images/portfolio/apple-store.svg"></a>
+				<a target="_blank" href="#" class="btn-store"><img src="/images/portfolio/google-store.svg"></a>
     		</div>
     	</div>
     	{{-- Small --}}
@@ -81,7 +81,7 @@
     		<span class="label text-white bg-warning">website</span>
     		<div class="d-flex align-items-center justify-content-center flex-column overlay">
     			<h2><strong>Farmacia Di Tarzo</strong></h2>
-				<a href="#" class="btn hvr-sweep-to-right"><strong>View project</strong></a>
+				<a target="_blank" href="https://farmaciaditarzo.net" class="btn hvr-sweep-to-right"><strong>View project</strong></a>
     		</div>
     	</div>
     </div>
