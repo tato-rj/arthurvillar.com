@@ -30,11 +30,6 @@ Route::get('/contact', function() {
 
 Route::post('/contact', 'EmailsController@send');
 
-Route::get('/psicanalise', function(){
-
-	return view('_PROJECTS/psicanalise/index');
-});
-
 /*
 |--------------------------------------------------------------------------
 | Projects Routes
@@ -44,3 +39,4 @@ Route::get('/psicanalise', function(){
 include __DIR__ . '/_PROJECTS/farmacia.php';
 include __DIR__ . '/_PROJECTS/chiaying.php';
 include __DIR__ . '/_PROJECTS/tsb.php';
+include __DIR__ . '/_PROJECTS/psicanalise.php';
