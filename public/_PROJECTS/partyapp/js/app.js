@@ -31401,21 +31401,22 @@ return exports;
 /* 10 */
 /***/ (function(module, exports) {
 
-$('#promo-video').on('click', function () {
-	$button = $(this).find('.fa');
-	$video = $(this).find('video').get(0);
+$('.rating').each(function () {
+	var container = $(this);
+	var rating = Number(container.attr('data-rating'));
+	var rating_ceil = Math.ceil(rating);
 
-	if ($video.paused) {
-		$video.play();
-		$button.fadeOut('fast');
-	} else {
-		$video.pause();
-		$button.fadeIn('fast');
+	for (i = 0; i <= 5; i++) {
+		var star = container.find('small:nth-child(' + i + ')').find('.fa');
+
+		if (i <= rating) {
+			star.addClass('fa-star');
+		} else if (i == rating_ceil) {
+			star.addClass('fa-star-half-o');
+		} else {
+			star.addClass('fa-star-o');
+		}
 	}
-
-	$video.on('ended', function () {
-		$button.fadeIn('fast');
-	});
 });
 
 /***/ }),

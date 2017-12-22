@@ -1,0 +1,1 @@
+<a href="{{$link or null}}" class="btn btn-white-blue {{$style or null}}">{{$slot}}</a>

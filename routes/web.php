@@ -40,3 +40,4 @@ include __DIR__ . '/_PROJECTS/farmacia.php';
 include __DIR__ . '/_PROJECTS/chiaying.php';
 include __DIR__ . '/_PROJECTS/tsb.php';
 include __DIR__ . '/_PROJECTS/psicanalise.php';
+include __DIR__ . '/_PROJECTS/partyapp.php';
