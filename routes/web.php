@@ -41,3 +41,4 @@ include __DIR__ . '/_PROJECTS/chiaying.php';
 include __DIR__ . '/_PROJECTS/tsb.php';
 include __DIR__ . '/_PROJECTS/psicanalise.php';
 include __DIR__ . '/_PROJECTS/partyapp.php';
+include __DIR__ . '/_PROJECTS/anandamayiyoga.php';
