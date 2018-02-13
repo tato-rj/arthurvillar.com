@@ -34005,23 +34005,24 @@ Popper.Defaults = Defaults;
 var $whiteLogo = $('.navbar-brand img:first');
 var $blueLogo = $('.navbar-brand img:last');
 var $navbar = $('.navbar');
-var $title = $('.navbar-brand div:last');
+var $title = $('.navbar-brand div:last h4');
 
 $(window).scroll(function () {
      var hT = $('#scroll-mark').offset().top,
          hH = $('#scroll-mark').outerHeight(),
          wH = $(window).height(),
-         wS = $(this).scrollTop();
-     if (wS > hT + hH - wH) {
+         scrollTop = $(this).scrollTop();
+
+     if (scrollTop > hT + hH - wH) {
           $navbar.addClass('navbar-light bg-light p-2 px-4').removeClass('p-4 px-5');
+          $title.addClass('text-muted').removeClass('text-white');
           $whiteLogo.hide();
           $blueLogo.show();
-          $title.show();
      } else {
           $navbar.removeClass('navbar-light bg-light p-2 px-4').addClass('p-4 px-5');
+          $title.removeClass('text-muted').addClass('text-white');
           $whiteLogo.show();
           $blueLogo.hide();
-          $title.hide();
      }
 });
 

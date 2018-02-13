@@ -8250,6 +8250,7 @@ button.bg-dark:focus {
 }
 
 .mb-4,
+.highlight-icon,
 .my-4 {
   margin-bottom: 1.5rem !important;
 }
@@ -11996,6 +11997,10 @@ a:focus,
   height: 100vh;
 }
 
+.h-40vh {
+  height: 40vh;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -12026,6 +12031,7 @@ a:focus,
 
 .t-2,
 .nav-link,
+.link-default,
 .btn-facebook,
 .btn-twitter {
   -webkit-transition: 0.2s;
@@ -12081,6 +12087,10 @@ a:focus,
   transform: rotate(180deg);
 }
 
+.p-8 {
+  padding: 8rem !important;
+}
+
 .navbar-brand img:first-of-type {
   width: 3.6em;
 }
@@ -12108,14 +12118,48 @@ a:focus,
   background-color: inherit !important;
 }
 
+.lead-profile-image {
+  width: 16em;
+  height: 16em;
+  margin-top: -8em;
+  z-index: 1;
+  border: .5em solid white;
+}
+
+.link-default {
+  color: #ef476f;
+}
+
+.link-default:hover,
+.link-default:active {
+  color: #d71341;
+  text-decoration: none;
+}
+
 .bg-full {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.bg-top {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.bg-light-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(226, 226, 226, 0.65)), color-stop(46%, rgba(91, 91, 91, 0)), color-stop(77%, transparent));
+  background: linear-gradient(to bottom, rgba(226, 226, 226, 0.65) 0%, rgba(91, 91, 91, 0) 46%, transparent 77%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6e2e2e2', endColorstr='#00000000',GradientType=0 );
+}
+
 .bg-blue {
   background-color: #3089e2;
+}
+
+.bg-blue-light {
+  background-color: #73afeb;
 }
 
 .bg-red {
@@ -12149,6 +12193,18 @@ a:focus,
   opacity: 0.8;
 }
 
+.btn-blue {
+  background: #3089e2;
+  color: white;
+}
+
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:focus {
+  background: #2381e0;
+  color: white !important;
+}
+
 .btn-red {
   background: #ef476f;
   color: white;
@@ -12172,17 +12228,29 @@ a:focus,
   background: #fdebf0;
 }
 
-.btn-outline-blue {
+.btn-outline-blue-empty {
   background: transparent;
   border: 3px solid white;
   color: white;
 }
 
-.btn-outline-blue:hover,
-.btn-outline-blue:active,
-.btn-outline-blue:focus {
+.btn-outline-blue-empty:hover,
+.btn-outline-blue-empty:active,
+.btn-outline-blue-empty:focus {
   background: white;
   color: #3089e2;
+}
+
+.btn-outline-red-empty {
+  background: transparent;
+  border: 3px solid white;
+  color: white;
+}
+
+.btn-outline-red-empty:hover,
+.btn-outline-red-empty:active {
+  background: white;
+  color: #ef476f;
 }
 
 .btn-outline-red {
@@ -12269,5 +12337,9 @@ footer a:focus {
 
 .fa-google-plus-g:hover {
   color: #d34836;
+}
+
+.highlight-icon {
+  width: 3em;
 }
 

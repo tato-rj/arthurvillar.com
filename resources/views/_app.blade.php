@@ -3,7 +3,7 @@
     {{-- Head of HTML, contaning meta, title and link tags --}}
     @yield('header')
     <body>
-        <main class="hidden">
+        <main>
             {{-- Sets up the bottom menu bar --}}
             @yield('menu')
             {{-- Content of each page --}}
