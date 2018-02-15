@@ -1,25 +1,25 @@
 @extends('_PROJECTS/anandamayiyoga/app')
 
 @section('content')
-  <div id="app">
+ <div id="app">
 
 
         <div class="container-fluid">
 
     <div class="row">
-    <section class="col-12 h-40vh bg-full" style="background-image:url({{asset('_PROJECTS/anandamayiyoga/images/backgrounds/covers/register.jpg')}})">
+    <section class="col-12 h-40vh bg-full" style="background-image:url({{asset('_PROJECTS/anandamayiyoga/images/backgrounds/covers/contact.jpg')}})">
         <div class="overlay w-100 h-100 bg-blue z-0"></div>
     </section>
 </div>    <section id="scroll-mark" class="container py-5">
     <div class="row my-3">
         <div class="col-12 mb-5 text-center">
-            <h1 class="font-lg">Let's get started</h1>
+            <h1 class="font-lg">Costumer Support</h1>
             <div class="line-shape"></div>
-            <p class="m-0">You are just a few steps away</p>
+            <p class="m-0">Please leave your message below and we will get back to you soon</p>
         </div>
         <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
           <article>
-                <form method="POST" action="">
+                <form method="POST" action="/contact">
                     <input type="hidden" name="_token" value="Groq1BcFVw79THYvZW8S310yfWdKK7tgF3iXHBad">
 
                     <div class="form-group">
@@ -36,34 +36,79 @@
                         <input id="email" type="email" class="form-control bg-light border-0" name="email" placeholder="E-mail" value="" required>
 
                                             </div>
-
                     <div class="form-group">
-                        <input id="password" type="password" class="form-control bg-light border-0" placeholder="Password" name="password" required>
-
+                        <select name="subject" required class="form-control bg-light border-0">
+                            <option selected  disabled>I need help with...</option>
+                            <option value="registration">Registration</option>
+                            <option value="support">Technical Support</option>
+                            <option value="account">My account/billing</option>
+                            <option value="feedback">Classes feedback</option>
+                            <option value="other">Other</option>
+                        </select>
                                             </div>
 
                     <div class="form-group">
-                        <input id="password-confirm" type="password" class="form-control bg-light border-0" placeholder="Confirm your passowrd" name="password_confirmation" required>
-                    </div>
-                    <div class="form-group">
-                        <div class="form-check">
-                            <input class="form-check-input " name="agreement" type="checkbox" value="" id="invalidCheck3" required>
-                            <label class="form-check-label" for="invalidCheck3">
-                                I agree to the <a class="link-default" href="">Terms & Conditions</a>
-                            </label>
-                                                    </div>
-                    </div>
+                        <textarea class="form-control bg-light border-0"" placeholder="Write your message here" name="message" rows="5" required></textarea>
+                                            </div>
 
                     <div class="form-group mt-5">
                         <button type="submit" class="btn btn-red btn-block">
-                            <strong>Create my account</strong>
+                            <strong>Send my message</strong>
                         </button>
                     </div>
-                    <div class="form-group text-muted">
-                        <small>You will receive a confirmation email. After confirming your contact you can start customizing your profile and finish your registration to start your 15-day trial. Once you start the trial your credit card will not be charged. The card will be charged $12/month only after the 15-day free period, unless you cancel before the trial ends. <a href="#" class="link-default">Click here</a> if you need more information.</small>
+                    <div class="form-group text-muted text-center">
+                        <small>You can also email us at <a href="#" class="link-default">support@anandamayiyoga.com</a></small>
                     </div>
                 </form>
             </article>
+        </div>
+    </div>
+</section>
+    <section id="scroll-mark" class="container py-5 mb-5 bg-light">
+    <div class="row my-3">
+        <div class="col-12 mb-5 text-center">
+            <h1 class="font-lg">Top FAQ</h1>
+            <div class="line-shape"></div>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 mx-auto">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-4">
+                    <a href="" class="link-light">
+                        <strong class="text-blue">Q:</strong>
+                        Nullam suscipit metus tincidunt nulla viverra rutrum?
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-4">
+                    <a href="" class="link-light">
+                        <strong class="text-blue">Q:</strong>
+                        Duis aliquam id ligula ac aliquam?
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-4">
+                    <a href="" class="link-light">
+                        <strong class="text-blue">Q:</strong>
+                        Aenean sed est sed sapien vestibulum dictum ac ut orci?
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-4">
+                    <a href="" class="link-light">
+                        <strong class="text-blue">Q:</strong>
+                        Class aptent taciti sociosqu ad litora torquent nostra?
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-4">
+                    <a href="" class="link-light">
+                        <strong class="text-blue">Q:</strong>
+                        Sed imperdiet tortor fringilla eros pellentesque luctus?
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-4">
+                    <a href="" class="link-light">
+                        <strong class="text-blue">Q:</strong>
+                        Sed finibus posuere nisi?
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -149,4 +194,5 @@
 </div>
 </section>
 </div>
+
 @endsection

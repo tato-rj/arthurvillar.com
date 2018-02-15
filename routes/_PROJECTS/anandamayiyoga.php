@@ -15,3 +15,15 @@ Route::get('/anandamayiyoga/about-anandamayi', function () {
 Route::get('/anandamayiyoga/register', function () {
     return view('_PROJECTS/anandamayiyoga/register');
 })->name('anandamayi/register');
+
+Route::get('/anandamayiyoga/support', function () {
+    return view('_PROJECTS/anandamayiyoga/help');
+})->name('anandamayi/help');
+
+Route::get('/anandamayiyoga/support/contact', function () {
+    return view('_PROJECTS/anandamayiyoga/contact');
+})->name('anandamayi/contact');
+
+Route::get('/anandamayiyoga/test', function() {
+	return 'test';
+});

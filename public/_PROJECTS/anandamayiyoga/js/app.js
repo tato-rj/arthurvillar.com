@@ -34002,28 +34002,35 @@ Popper.Defaults = Defaults;
 /* 11 */
 /***/ (function(module, exports) {
 
-var $whiteLogo = $('.navbar-brand img:first');
-var $blueLogo = $('.navbar-brand img:last');
-var $navbar = $('.navbar');
-var $title = $('.navbar-brand div:last h4');
+$(document).ready(function () {
+  var $whiteLogo = $('.navbar-brand img:first');
+  var $blueLogo = $('.navbar-brand img:last');
+  var $navbar = $('.navbar');
+  var $title = $('.navbar-brand div:last h4');
+  var $navHeight = $navbar.outerHeight();
+  var $scrollMark = $('#scroll-mark').offset().top;
+  var $limit = $scrollMark - $navHeight;
+  $(window).scroll(function () {
+    var $scrollTop = $(this).scrollTop();
 
-$(window).scroll(function () {
-     var hT = $('#scroll-mark').offset().top,
-         hH = $('#scroll-mark').outerHeight(),
-         wH = $(window).height(),
-         scrollTop = $(this).scrollTop();
+    // console.log($limit - $navHeight);
+    // var hT = $('#scroll-mark').offset().top,
+    //     hH = $('#scroll-mark').outerHeight(),
+    //     wH = $(window).height(),
+    //     scrollTop = $(this).scrollTop();
 
-     if (scrollTop > hT + hH - wH) {
-          $navbar.addClass('navbar-light bg-light p-2 px-4').removeClass('p-4 px-5');
-          $title.addClass('text-muted').removeClass('text-white');
-          $whiteLogo.hide();
-          $blueLogo.show();
-     } else {
-          $navbar.removeClass('navbar-light bg-light p-2 px-4').addClass('p-4 px-5');
-          $title.removeClass('text-muted').addClass('text-white');
-          $whiteLogo.show();
-          $blueLogo.hide();
-     }
+    if ($scrollTop > $limit) {
+      $navbar.addClass('navbar-light bg-light shadow p-2 px-4').removeClass('p-4 px-5');
+      $title.addClass('text-muted').removeClass('text-white');
+      $whiteLogo.hide();
+      $blueLogo.show();
+    } else {
+      $navbar.removeClass('navbar-light bg-light shadow p-2 px-4').addClass('p-4 px-5');
+      $title.removeClass('text-muted').addClass('text-white');
+      $whiteLogo.show();
+      $blueLogo.hide();
+    }
+  });
 });
 
 /***/ }),
