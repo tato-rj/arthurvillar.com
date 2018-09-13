@@ -2,7 +2,7 @@
 
 @section('header')
     @component('partials.header')
-    Arthur Villar - Code
+    Arthur Villar@Programming
     @endcomponent
 @endsection
 
