@@ -75,18 +75,8 @@
       <div class="col-lg-4 col-sm-12">
         <div reveal-origin="bottom" reveal-delay="0" reveal-duration="500" class="reveal p-4 t-2 h-100">
           <img class="highlight-icon" src="{{asset('_PROJECTS/anandamayiyoga/images/icons/meditation.svg')}}">
-          <h5 class="text-muted mb-3"><strong>Movement & Meditation</strong></h5>
+          <h5 class="text-muted mb-3"><strong>Spiritual Growth</strong></h5>
           <p class="text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing. Donec pulvinar aliquam ante. Curabitur quis libero tincidunt, finibus nunc sit amet, molestie risus.</p>
-          <div class="text-right">
-            <a href="#" class="link-default">learn more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-12">
-        <div reveal-origin="bottom" reveal-delay="100" reveal-duration="500" class="reveal p-4 t-2 h-100">
-          <img class="highlight-icon" src="{{asset('_PROJECTS/anandamayiyoga/images/icons/fitness.svg')}}">
-          <h5 class="text-muted mb-3"><strong>Fitness</strong></h5>
-          <p class="text-muted mb-2">Duis convallis, lorem id fringilla dapibus, metus enim ornare felis, vel viverra. Donec pulvinar aliquam ante, aliquam vel condimentum ipsum.</p>
           <div class="text-right">
             <a href="#" class="link-default">learn more</a>
           </div>
@@ -95,8 +85,18 @@
       <div class="col-lg-4 col-sm-12">
         <div reveal-origin="bottom" reveal-delay="200" reveal-duration="500" class="reveal p-4 t-2 h-100">
           <img class="highlight-icon" src="{{asset('_PROJECTS/anandamayiyoga/images/icons/health.svg')}}">
-          <h5 class="text-muted mb-3"><strong>Emotional health</strong></h5>
+          <h5 class="text-muted mb-3"><strong>Emotional Balance</strong></h5>
           <p class="text-muted mb-2">Etiam eu metus molestie ligula convallis gravida sed nec felis. Praesent tristique massa. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+          <div class="text-right">
+            <a href="#" class="link-default">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <div reveal-origin="bottom" reveal-delay="100" reveal-duration="500" class="reveal p-4 t-2 h-100">
+          <img class="highlight-icon" src="{{asset('_PROJECTS/anandamayiyoga/images/icons/fitness.svg')}}">
+          <h5 class="text-muted mb-3"><strong>Fitness & Health</strong></h5>
+          <p class="text-muted mb-2">Duis convallis, lorem id fringilla dapibus, metus enim ornare felis, vel viverra. Donec pulvinar aliquam ante, aliquam vel condimentum ipsum.</p>
           <div class="text-right">
             <a href="#" class="link-default">learn more</a>
           </div>
@@ -132,36 +132,72 @@
             </div>
           </div>
         </div>
-      </section>    <section class="row">
+      </section> 
+    <section class="row">
+    <div class="container mt-5">
+        <div class="row align-items-center pt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-right books-display">
+                <img class="reveal back" reveal-origin="right" reveal-delay="100" reveal-duration="750" src="{{asset('_PROJECTS/anandamayiyoga/images/books/saudacao_do_sol.jpg')}}">
+                <img class="reveal front" reveal-origin="left" reveal-delay="200" reveal-duration="750" src="{{asset('_PROJECTS/anandamayiyoga/images/books/saudacao_da_lua.jpg')}}">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <p class="mt-4">Pellentesque neque enim, tempus eget tincidunt non, suscipit in velit. Fusce diam est, sollicitudin vitae pretium quis, porttitor quis tortor. Etiam sollicitudin porttitor tristique.</p>
+                <p>Vestibulum mauris odio, finibus non eleifend ac, aliquam id tellus. Etiam vitae neque enim. Phasellus ac velit sed eros volutpat accumsan at ut dolor.</p>
+                <a href="" class="btn btn-red"><strong>Learn more about our publications</strong></a>
+            </div>
+        </div>
+    </div>
+</section>    
+     <section class="row">
         <div class="container my-5">
           <div class="row align-items-center py-5">
             <div class="col-lg-6 col-md-6 col-sm-12">
               <h2>ON ALL YOUR DEVICES</h2>
-              <p class="m-0">Practice yoga anywhere, anytime and on any device - works on all platforms, we'll always be with you</p>
+              <p class="m-0 lead">Practice yoga anywhere, anytime and on any device - works on all platforms, we'll always be with you</p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
               <img class="w-100" src="{{asset('_PROJECTS/anandamayiyoga/images/backgrounds/devices.png')}}">
             </div>
           </div>
         </div>
-      </section>    <div class="row bg-full position-relative" style="background-image:url({{asset('_PROJECTS/anandamayiyoga/images/backgrounds/level.jpg')}})">
-        <div class="overlay-dark w-100 h-100 bg-light z-0"></div>
-        <section class="container py-5">
-          <div class="row text-center my-5">
+      </section>
+
+        <div class="row bg-full position-relative" style="background-image:url({{asset('_PROJECTS/anandamayiyoga/images/backgrounds/studio.jpg')}})">
+    <div class="overlay-dark w-100 h-100 bg-light z-0"></div>
+    <section class="container py-5">
+        <div class="row text-center my-5">
             <div class="col-12 text-center">
-              <h1 class="font-lg">Choose the best practice for you</h1>
-              <div class="line-shape"></div>
+                <h1 class="font-lg">Choose the best practice for you</h1>
+                <div class="line-shape"></div>
             </div>
             <div class="col-12 my-4">
-              <p class="lead">Let us find you the right classes to start your <strong>15 day free trial.</strong></p>
+                <p class="lead">Let us find you the right classes to start your <strong>15 day free trial.</strong></p>
             </div>
-            <div class="col-lg-10 col-md-10 col-sm-12 mx-auto">
-              <button reveal-origin="bottom" reveal-duration="500" reveal-delay="0" class="reveal hover-shadow t-2 btn btn-lg btn-outline-red mx-5 mb-4" data-toggle="modal" data-target="#classes"><strong>Beginner</strong></button>
-              <button reveal-origin="bottom" reveal-duration="500" reveal-delay="100" class="reveal hover-shadow t-2 btn btn-lg btn-outline-red mx-5 mb-4" data-toggle="modal" data-target="#classes"><strong>Intermediate</strong></button>
-              <button reveal-origin="bottom" reveal-duration="500" reveal-delay="200" class="reveal hover-shadow t-2 btn btn-lg btn-outline-red mx-5 mb-4" data-toggle="modal" data-target="#classes"><strong>Advanced</strong></button>
+
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-10 mx-auto move-control">
+                <div class="hover-shadow t-2 cursor-pointer move-item-up" data-toggle="modal" data-target="#classes">
+                    <img class="w-100 rounded-top" src="{{asset('_PROJECTS/anandamayiyoga/images/backgrounds/easy.jpg')}}">
+                    <button class=" btn btn-lg btn-block border-0" style="background: #edd6789c; border-top-right-radius: 0; border-top-left-radius: 0"><strong>Beginner</strong></button>                         
+                </div>
             </div>
-          </div>
-        </section>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-10 mx-auto move-control">
+                <div class="hover-shadow t-2 cursor-pointer move-item-up" data-toggle="modal" data-target="#classes">
+                    <img class="w-100 rounded-top" src="{{asset('_PROJECTS/anandamayiyoga/images/backgrounds/intermediate.jpg')}}">
+                    <button class=" btn btn-lg btn-block border-0" style="background: #ecaf79ab; border-top-right-radius: 0; border-top-left-radius: 0"><strong>Intermediate</strong></button>                         
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-10 mx-auto move-control">
+                <div class="hover-shadow t-2 cursor-pointer move-item-up" data-toggle="modal" data-target="#classes">
+                    <img class="w-100 rounded-top" src="{{asset('_PROJECTS/anandamayiyoga/images/backgrounds/advanced.jpg')}}">
+                    <button class=" btn btn-lg btn-block border-0" style="background: #ec7879b0; border-top-right-radius: 0; border-top-left-radius: 0"><strong>Advanced</strong></button>                         
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
       </div>    <section class="container py-5">
         <div class="row text-center my-5">
           <div class="col-12">

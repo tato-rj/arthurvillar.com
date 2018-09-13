@@ -56,7 +56,7 @@
         <div class="row align-items-center py-5">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <h2>ON ALL YOUR DEVICES</h2>
-                <p class="m-0">Practice yoga anywhere, anytime and on any device - works on all platforms, we'll always be with you</p>
+                <p class="m-0 lead">Practice yoga anywhere, anytime and on any device - works on all platforms, we'll always be with you</p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <img class="w-100" src="{{asset('_PROJECTS/anandamayiyoga/images/backgrounds/devices.png')}}">

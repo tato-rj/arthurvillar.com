@@ -13,7 +13,7 @@
   <!-- Styles -->
 
   <link href="{{ asset('_PROJECTS/anandamayiyoga/css/vendor/fontawesome-all.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('_PROJECTS/anandamayiyoga/css/app.css') }}?version=3" rel="stylesheet">
+  <link href="{{ asset('_PROJECTS/anandamayiyoga/css/app.css') }}?version=7" rel="stylesheet">
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
   @yield('head')
@@ -149,12 +149,15 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            our library
+            publications
           </a>
           <div class="shadow dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">guidelines for practice</a>
-            <a class="dropdown-item" href="#">library poses</a>
+            <a class="dropdown-item" href="#">articles</a>
+            <a class="dropdown-item" href="#">books</a>
           </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">yoga poses</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{route('anandamayi/help')}}">help</a>
