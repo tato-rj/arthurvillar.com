@@ -2,7 +2,7 @@
 
 @section('header')
     @component('partials.header')
-    Arthur Villar - Contact
+    Arthur Villar@Contact
     @endcomponent
 @endsection
 

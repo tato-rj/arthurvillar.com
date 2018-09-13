@@ -2,7 +2,7 @@
 
 @section('header')
     @component('partials.header')
-    Arthur Villar - Music
+    Arthur Villar@Music
     @endcomponent
 @endsection
 
