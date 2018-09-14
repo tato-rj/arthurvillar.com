@@ -1,5 +1,8 @@
 <?php
 
+use App\Mail\TestMail;
+use Illuminate\Support\Facades\Mail;
+
 /*
 |--------------------------------------------------------------------------
 | Main APP Routes
@@ -29,6 +32,12 @@ Route::get('/contact', function() {
 });
 
 Route::post('/contact', 'EmailsController@send');
+
+Route::get('/check-queue', function() {
+	Mail::to('arthurvillar@gmail.com')->send(new TestMail());
+
+	return 'It works!';
+});
 
 /*
 |--------------------------------------------------------------------------
