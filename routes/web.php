@@ -34,9 +34,9 @@ Route::get('/contact', function() {
 Route::post('/contact', 'EmailsController@send');
 
 Route::get('/check-queue', function() {
-	Mail::to('arthurvillar@gmail.com')->send(new TestMail());
+	// Mail::to('arthurvillar@gmail.com')->send(new TestMail());
 
-	return 'It works!';
+	return \App\Project::all();
 });
 
 /*
