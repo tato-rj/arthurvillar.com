@@ -29,6 +29,6 @@ class PerformLongRunningThing implements ShouldQueue
      */
     public function handle()
     {
-        \Log::('It works!');
+        \Log::info('It works!');
     }
 }
