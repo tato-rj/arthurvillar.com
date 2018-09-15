@@ -12,7 +12,7 @@
         <div class="col-12 text-center">
             {{-- Title --}}
             <div class="d-flex align-items-center justify-content-center" id="title">
-                <h1>arthurvillar<span class="text-warning">::welcome</span></h1>
+                <h1>leffi<span class="text-warning">::welcome</span></h1>
             </div>
             {{-- Menu --}}
             <div class="d-flex align-items-center nav justify-content-center">
