@@ -29,6 +29,6 @@ class PerformLongRunningThing implements ShouldQueue
      */
     public function handle()
     {
-        dd('Getting there...');
+        \Log::info('Testing!');
     }
 }
