@@ -34,9 +34,7 @@ Route::get('/contact', function() {
 Route::post('/contact', 'EmailsController@send');
 
 Route::get('/check-queue', function() {
-	dispatch(new \App\Jobs\PerformLongRunningThing)->delay(now()->addSeconds(5));
-
-	return 'It works:)';
+	//
 });
 
 /*
