@@ -6,13 +6,14 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use App\User;
 use App\Project;
+use App\Jobs\ConquerTheWorld;
 
 class UsersController extends Controller
 {
 
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth')->except('test');
     }
 
     public function index(User $user)
@@ -22,6 +23,11 @@ class UsersController extends Controller
         $projects = $this->getProjects($user);
 
         return view('dashboard', compact('projects'));
+    }
+
+    public function test(Request $request)
+    {
+        dispatch(new ConquerTheWorld)->delay(now()->addSeconds(40));
     }
 
     public function create()

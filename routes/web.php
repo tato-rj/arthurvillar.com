@@ -33,9 +33,7 @@ Route::get('/contact', function() {
 
 Route::post('/contact', 'EmailsController@send');
 
-Route::get('/check-queue', function() {
-	//
-});
+Route::get('/queue-test', 'UsersController@test');
 
 /*
 |--------------------------------------------------------------------------
