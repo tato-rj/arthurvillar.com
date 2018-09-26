@@ -15,12 +15,12 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->increments('id');
-            // $table->unsignedInteger('user_id');
-            // $table->string('name');
-            // $table->string('slug');
-            // $table->text('description');
-            // $table->string('current_task');
-            // $table->timestamp('task_deadline')->nullable();
+            $table->unsignedInteger('user_id');
+            $table->string('name');
+            $table->string('slug');
+            $table->text('description');
+            $table->string('current_task');
+            $table->timestamp('task_deadline')->nullable();
             $table->boolean('completed');
             $table->timestamps();
         });
