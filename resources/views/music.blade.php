@@ -49,7 +49,7 @@
     	<div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
     		<blockquote class="blockquote">
     			"Arthur Villar’s recording is one which has the immediate appeal of a superb recording made on a fine sounding Steinway D, and I have to say I was intrigued by this performance from the outset. Arthur Villar seems to be very much his own man in steering a path away from any particular ‘school’ of Bach performing, appearing to be occupied as far as possible with the material in front of him and his own responses to it, rather than allowing himself to be swayed by the turbulent winds of fashion..."
-    			<p class="blockquote-footer">Dominy Clements, UK | read <cite title="Click to read review"><a href="http://www.musicweb-international.com/classrev/2013/May13/Bach_WTC1_8087401.htm" target="_blank">full review</a></cite></p>
+    			<p class="blockquote-footer">Dominy Clements, UK | read <cite title="Click to read review"><a href="https://www.musicweb-international.com/classrev/2013/May13/Bach_WTC1_8087401.htm" target="_blank">full review</a></cite></p>
     		</blockquote> 		
     	</div>
     </div>
@@ -63,7 +63,7 @@
     <div class="row gal">
     	{{-- Big --}}
     	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-    		<iframe src="http://www.youtube.com/embed/F8LTteB3BTQ?rel=0" frameborder="0" allowfullscreen></iframe>
+    		<iframe src="https://www.youtube.com/embed/F8LTteB3BTQ?rel=0" frameborder="0" allowfullscreen></iframe>
     	</div>
     	{{-- Small --}}
     	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -79,7 +79,7 @@
     	</div>
     	{{-- Small --}}
     	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-    		<iframe src="http://www.youtube.com/embed/qiQpIkzZ8qQ?rel=0" frameborder="0" allowfullscreen></iframe>
+    		<iframe src="https://www.youtube.com/embed/qiQpIkzZ8qQ?rel=0" frameborder="0" allowfullscreen></iframe>
     	</div>
     </div>
         {{-- Bio part 2 --}}
@@ -91,7 +91,7 @@
     <div class="row gal">
     	{{-- Small --}}
     	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <iframe src="http://www.youtube.com/embed/-DW7-BGXS6s?rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/-DW7-BGXS6s?rel=0" frameborder="0" allowfullscreen></iframe>
     	</div>
     	{{-- Small --}}
     	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -99,11 +99,11 @@
     	</div>
     	{{-- Small --}}
     	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-    		<iframe src="http://www.youtube.com/embed/thpY0FmUzeA?rel=0" frameborder="0" allowfullscreen></iframe>
+    		<iframe src="https://www.youtube.com/embed/thpY0FmUzeA?rel=0" frameborder="0" allowfullscreen></iframe>
     	</div>
     	{{-- Big --}}
     	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-    		<iframe src="http://www.youtube.com/embed/OiuXxNS6kjw?rel=0" frameborder="0" allowfullscreen></iframe>
+    		<iframe src="https://www.youtube.com/embed/OiuXxNS6kjw?rel=0" frameborder="0" allowfullscreen></iframe>
     	</div>
     	{{-- Small --}}
     	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">

@@ -62,7 +62,7 @@
     		<span class="label text-white bg-warning">website</span>
     		<div class="d-flex align-items-center justify-content-center flex-column overlay">
     			<h2><strong>HMTA</strong></h2>
-				<a target="_blank" href="http://www.hartfordmusicteachers.org" class="btn hvr-sweep-to-right"><strong>View project</strong></a>
+				<a target="_blank" href="https://www.hartfordmusicteachers.org" class="btn hvr-sweep-to-right"><strong>View project</strong></a>
     		</div>
     	</div>
     	{{-- Small --}}
@@ -92,8 +92,8 @@
             <div class="d-flex align-items-center justify-content-center flex-wrap">
                 <a href="https://laravel.com/" target="_blank"><img src="/images/libraries/laravel.svg" title="Laravel" class="bw"></a>
                 <a href="https://vuejs.org/" target="_blank"><img src="/images/libraries/vue.svg" title="Vue" class="bw"></a>
-                <a href="http://getbootstrap.com/" target="_blank"><img src="/images/libraries/bootstrap.svg" title="Bootstrap" class="bw"></a>
-                <a href="http://sass-lang.com/" target="_blank"><img src="/images/libraries/sass.svg" title="Sass" class="bw"></a>
+                <a href="https://getbootstrap.com/" target="_blank"><img src="/images/libraries/bootstrap.svg" title="Bootstrap" class="bw"></a>
+                <a href="https://sass-lang.com/" target="_blank"><img src="/images/libraries/sass.svg" title="Sass" class="bw"></a>
                 <a href="https://nodejs.org/en/" target="_blank"><img src="/images/libraries/node.svg" title="Node.js" class="bw"></a>
                 <a href="https://redis.io/" target="_blank"><img src="/images/libraries/redis.svg" title="Redis" class="bw"></a>
                 <a href="https://unity3d.com/" target="_blank"><img src="/images/libraries/unity.svg" title="Unity" class="bw"></a>
