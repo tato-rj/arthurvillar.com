@@ -11,6 +11,10 @@ body {
 	font-family: 'Varela Round', sans-serif;
 	font-size: 1rem;
 }
+
+.font-highlight {
+	font-family: 'Poppins', sans-serif !important;
+}
 </style>
 @endpush
 
@@ -27,43 +31,90 @@ body {
 		</div>
 	</div>
 </div>
-<section id="page-1" style="height: 800px">
-	<h1 style="display: none;">First page</h1>
-</section>
-<section id="page-2" style="height: 400px">
-	<h1 style="display: none;">Second page</h1>
-</section>
-<section id="page-3" style="height: 1200px">
 
-</section>
-<section id="page-4" style="height: 980px">
+@include('pages.welcome.projects.science-breaker')
 
-</section>
-<section id="page-5" style="height: 700px">
+@include('pages.welcome.projects.pianolit')
 
-</section>
-<section id="page-6" style="height: 2000px">
-
+<section id="page-3" class="page container py-4" style="height: 1200px">
+	<div class="page-content">
+	@include('pages.welcome.components.title', 
+		[
+			'title' => 'MetropolisRio', 
+			'types' => ['website', 'front-end', 'back-end', 'cms'], 
+			'icon' => 'https://www.metropolisrio.com.br/images/brand/logo.svg', 'styles' => 'py-2', 'frameIcon' => false])
+	</div>
 </section>
 
+<section id="page-4" class="page container py-4" style="height: 700px">
+	<div class="page-content">
+	@include('pages.welcome.components.title', 
+		[
+			'title' => 'Quickreads', 
+			'types' => ['back-end', 'cms', 'api'], 
+			'icon' => 'https://leftlaneapps.com/images/icon.svg', 'frameIcon' => true])
+	</div>
+</section>
+
+<section id="page-5" class="page container py-4" style="height: 700px">
+	<div class="page-content">
+	@include('pages.welcome.components.title', 
+		[
+			'title' => 'AnandamayiYoga', 
+			'types' => ['website', 'front-end', 'back-end', 'cms'], 
+			'icon' => 'https://anandamayiyoga.s3.amazonaws.com/app/brand/logo-pink.svg', 'styles' => 'py-2', 'frameIcon' => false])
+	</div>
+</section>
+
+<section id="page-6" class="page container py-4" style="height: 700px">
+	<div class="page-content">
+	@include('pages.welcome.components.title', 
+		[
+			'title' => 'Musiceasy', 
+			'types' => ['iOS', 'Android'], 
+			'icon' => 'https://is4-ssl.mzstatic.com/image/thumb/Purple127/v4/37/9b/76/379b765a-280a-50c5-abda-74990c1b9f80/pr_source.jpg/246x0w.jpg', 'styles' => 'rounded-circle', 'frameIcon' => false])
+	</div>
+</section>
+
+<section id="page-7" class="page container py-4" style="height: 700px">
+	<div class="page-content">
+	@include('pages.welcome.components.title', 
+		[
+			'title' => 'Acesso Fácil Brasil', 
+			'types' => ['website', 'front-end'], 
+			'icon' => 'https://portalacessofacil.com.br/images/brand/logo.svg', 'frameIcon' => false])
+	</div>
+</section>
+
+<section id="page-8" class="page container py-4" style="height: 700px">
+	<div class="page-content">
+	@include('pages.welcome.components.title', 
+		[
+			'title' => 'HMTA', 
+			'types' => ['website', 'front-end', 'back-end', 'cms'], 
+			'icon' => 'http://hartfordmusicteachers.org/_files/images/logo.svg', 'styles' => 'py-1', 'frameIcon' => false])
+	</div>
+</section>
+<footer style="height: 400px">
+	
+</footer>
 @endsection
 
 @push('footer')
 <script>
-$(function () { // wait for document ready
-	// init controller
-	var controller = new ScrollMagic.Controller();
+$(function () {	
+	let controller = new ScrollMagic.Controller();
 
-	// build scenes
-	new ScrollMagic.Scene({triggerElement: "#page-1"})
-					.setClassToggle("#page-1 h1", "show") // add class toggle
-					.addIndicators() // add indicators (requires plugin)
-					.addTo(controller);
+	$('section.page').each(function() {
+		let $page = $(this);
 
-	new ScrollMagic.Scene({triggerElement: "#page-2"})
-					.setClassToggle("#page-2 h1", "show") // add class toggle
-					.addIndicators() // add indicators (requires plugin)
-					.addTo(controller);
+		new ScrollMagic.Scene({triggerElement: "#" + $page.attr('id'), duration: $page.height()})
+						.triggerHook(0)
+						.setPin("#" + $page.attr('id') + " .page-content")
+						.addIndicators()
+						.addTo(controller);
+	});
+
 });
 </script>
 @endpush
