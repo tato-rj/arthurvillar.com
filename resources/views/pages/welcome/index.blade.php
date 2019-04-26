@@ -34,6 +34,11 @@ body {
 			<a href="#" class="t-2 link-inherit"><i class="fas fa-envelope fa-2x mx-3"></i></a>
 		</div>
 	</div>
+
+	<div id="indicator" class="position-absolute mb-4 text-grey text-center" style="bottom: 0; display: none;">
+		<p class="lead mb-1">WHAT I'VE BEEN WORKING ON</p>
+		<span><i class="fas fa-lg fa-chevron-down"></i></span>
+	</div>
 </div>
 
 @include('pages.welcome.projects.science-breaker')
@@ -59,7 +64,10 @@ body {
 var typed = new Typed('#greeting', {
 	strings: ['My name is Arthur^600, I am a full stack web developer.'],
 	typeSpeed: 30,
-	startDelay: 600
+	startDelay: 600,
+	onComplete: (self) => {
+		$('#indicator').fadeIn('fast');
+	}
 });
 </script>
 <script>
