@@ -1,0 +1,101 @@
+.elipsis {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+small {
+	.tiny {
+		font-size: .75em;
+	}
+}
+
+.text-grey {
+	color: $grey !important;
+}
+
+.text-red, .text-error {
+	color: $red;
+}
+
+.text-orange {
+	color: $orange;
+}
+
+.text-yellow {
+	color: $yellow;
+}
+
+.text-green {
+	color: $green;
+}
+
+.text-teal {
+	color: $teal;
+}
+
+.text-blue {
+	color: $blue;
+}
+
+.text-indigo {
+	color: $indigo;
+}
+
+.text-purple {
+	color: $purple;
+}
+
+.text-pink {
+	color: $pink;
+}
+
+.lead-lg {
+	font-weight: 300;
+	font-size: 1.64063rem !important;
+    line-height: 1.6;
+    letter-spacing: .06em;
+}
+
+.text-facebook {
+	color: $social-facebook;
+}
+
+.text-twitter {
+	color: $social-twitter;	
+}
+
+.text-youtube {
+	color: $social-youtube;
+}
+
+.text-instagram {
+	color: $social-instagram;	
+}
+
+.text-google {
+	color: $social-google;	
+}
+
+.text-linkedin {
+	color: $social-linkedin;	
+}
+
+.text-github {
+	color: $social-github;	
+}
+
+.text-slack {
+	color: $social-slack;	
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

@@ -1,0 +1,48 @@
+.flip-y {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.flip-x {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+.filter-grayscale {
+	filter: grayscale(100%);
+}
+
+.hover-grayscale-in {
+	@extend .t-2;
+	opacity: .6;
+	filter: grayscale(0);
+}
+
+.hover-grayscale-in:hover {
+	opacity: 1;
+	filter: grayscale(100%);
+}
+
+.hover-grayscale-out {
+	@extend .t-2;
+	opacity: .6;
+	filter: grayscale(100%);
+}
+
+.hover-grayscale-out:hover {
+	opacity: 1;
+	filter: grayscale(0);
+}
+
+.d-apart {
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+}

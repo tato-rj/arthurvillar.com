@@ -1,0 +1,171 @@
+a.link-inherit {
+	color: inherit;
+}
+
+a.link-no-underline {
+	@extend .link-inherit;
+}
+
+a.link-no-underline:hover {
+	text-decoration: none;
+}
+
+a.link-none {
+	@extend .link-inherit, .link-no-underline;
+}
+
+a.link-none:hover {
+	color: inherit;
+}
+
+a.link-facebook {
+	@extend .link-none, .t-2;
+	color: $social-facebook;
+	&:hover {
+		color: darken($social-facebook, 10%);
+	}
+}
+
+a.link-twitter {
+	@extend .link-none, .t-2;
+	color: $social-twitter;
+	&:hover {
+		color: darken($social-twitter, 10%);
+	}	
+}
+
+a.link-youtube {
+	@extend .link-none, .t-2;
+	color: $social-youtube;
+	&:hover {
+		color: darken($social-youtube, 10%);
+	}
+}
+
+a.link-instagram {
+	@extend .link-none, .t-2;
+	color: $social-instagram;
+	&:hover {
+		color: darken($social-instagram, 10%);
+	}	
+}
+
+a.link-google {
+	@extend .link-none, .t-2;
+	color: $social-google;
+	&:hover {
+		color: darken($social-google, 10%);
+	}	
+}
+
+a.link-linkedin {
+	@extend .link-none, .t-2;
+	color: $social-linkedin;
+	&:hover {
+		color: darken($social-linkedin, 10%);
+	}	
+}
+
+a.link-github {
+	@extend .link-none, .t-2;
+	color: $social-github;
+	&:hover {
+		color: darken($social-github, 10%);
+	}	
+}
+
+a.link-whatsapp {
+	@extend .link-none, .t-2;
+	color: $social-whatsapp;
+	&:hover {
+		color: darken($social-whatsapp, 10%);
+	}	
+}
+
+a.link-slack {
+	@extend .link-none, .t-2;
+	color: $social-slack;
+	&:hover {
+		color: darken($social-slack, 10%);
+	}	
+}
+
+a.link-grey {
+	@extend .link-none, .t-2;
+	color: $grey;
+	&:hover {
+		color: darken($grey, 10%);
+	}	
+}
+
+a.link-red {
+	@extend .link-none, .t-2;
+	color: $red;
+	&:hover {
+		color: darken($red, 10%);
+	}	
+}
+
+a.link-orange {
+	@extend .link-none, .t-2;
+	color: $orange;
+	&:hover {
+		color: darken($orange, 10%);
+	}	
+}
+
+a.link-yellow {
+	@extend .link-none, .t-2;
+	color: $yellow;
+	&:hover {
+		color: darken($yellow, 10%);
+	}	
+}
+
+a.link-green {
+	@extend .link-none, .t-2;
+	color: $green;
+	&:hover {
+		color: darken($green, 10%);
+	}	
+}
+
+a.link-teal {
+	@extend .link-none, .t-2;
+	color: $teal;
+	&:hover {
+		color: darken($teal, 10%);
+	}	
+}
+
+a.link-blue {
+	@extend .link-none, .t-2;
+	color: $blue;
+	&:hover {
+		color: darken($blue, 10%);
+	}	
+}
+
+a.link-indigo {
+	@extend .link-none, .t-2;
+	color: $indigo;
+	&:hover {
+		color: darken($indigo, 10%);
+	}	
+}
+
+a.link-purple {
+	@extend .link-none, .t-2;
+	color: $purple;
+	&:hover {
+		color: darken($purple, 10%);
+	}	
+}
+
+a.link-pink {
+	@extend .link-none, .t-2;
+	color: $pink;
+	&:hover {
+		color: darken($pink, 10%);
+	}	
+}

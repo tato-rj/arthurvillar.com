@@ -11,10 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.welcome.index');
-});
-
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('', 'HomeController@index')->name('home');
+
+Route::prefix('primer')->name('primer.')->group(function() {
+
+	Route::get('', 'PrimerController@index')->name('index');
+
+});

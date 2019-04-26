@@ -1,4 +1,4 @@
-<section id="page-7" class="page container py-4">
+<section id="page-{{$id}}" class="page container py-4">
 	<div class="page-content">
 		@include('pages.welcome.components.title', 
 			[

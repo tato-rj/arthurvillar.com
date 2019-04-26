@@ -1,0 +1,41 @@
+.opacity-2 {
+	opacity: 0.2;
+}
+
+.opacity-4 {
+	opacity: 0.4;
+}
+
+.opacity-6 {
+	opacity: 0.6;
+}
+
+.opacity-8 {
+	opacity: 0.8;
+}
+
+.show-on-hover {
+	@extend .t-2;
+	opacity: 0;
+}
+
+.show-on-hover:hover {
+	opacity: 1;
+}
+
+.hide-element {
+	@extend .t-2;
+}
+
+.hide-on-hover:hover .hide-element {
+	opacity: 0;
+}
+
+.show-element {
+	@extend .t-2;
+	opacity: 0;
+}
+
+.show-element-on-hover:hover .show-element {
+	opacity: 1;
+}

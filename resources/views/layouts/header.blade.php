@@ -6,7 +6,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto px-4">
       <li class="nav-item p-3 active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{route('home')}}">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item p-3">
         <a class="nav-link" href="#">Blog</a>

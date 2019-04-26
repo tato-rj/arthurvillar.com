@@ -41,21 +41,19 @@ body {
 	</div>
 </div>
 
-@include('pages.welcome.projects.science-breaker')
+@include('pages.welcome.projects.science-breaker', ['id' => 1])
 
-@include('pages.welcome.projects.pianolit')
+@include('pages.welcome.projects.pianolit', ['id' => 2])
 
-@include('pages.welcome.projects.metropolis')
+@include('pages.welcome.projects.metropolis', ['id' => 3])
 
-@include('pages.welcome.projects.quickreads')
+@include('pages.welcome.projects.quickreads', ['id' => 4])
 
-@include('pages.welcome.projects.anandamayiyoga')
+@include('pages.welcome.projects.anandamayiyoga', ['id' => 5])
 
-@include('pages.welcome.projects.musiceasy')
+@include('pages.welcome.projects.musiceasy', ['id' => 6])
 
-@include('pages.welcome.projects.acesso-facil')
-
-@include('pages.welcome.projects.hmta')
+@include('pages.welcome.projects.primer', ['id' => 7])
 
 @endsection
 

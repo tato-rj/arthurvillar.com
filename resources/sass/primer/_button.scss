@@ -1,0 +1,607 @@
+select:focus,
+textarea:focus,
+input:focus,
+a:focus,
+.btn:focus {   
+    outline: none;
+    box-shadow:none !important;
+}
+
+.btn-xs {
+	padding: .1rem .4rem;
+    font-size: .8rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+.btn-wide {
+	padding: .375rem 1.5rem !important;
+}
+
+.btn-xl {
+	padding: .5rem 1.5rem;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	border-radius: .3rem;
+}
+
+.btn-grey {
+	color: white !important;
+	background-color: $grey-dark;
+	border-color: $grey-dark;
+
+	&:hover {
+		color: white !important;
+		background-color: darken($grey-dark, 6%);
+		border-color: darken($grey-dark, 6%);
+	}
+
+	&:active {
+		background-color: darken($grey-dark, 10%);
+		border-color: darken($grey-dark, 10%);
+	}
+}
+
+.btn-red {
+	color: white !important;
+	background-color: $red;
+	border-color: $red;
+
+	&:hover {
+		color: white !important;
+		background-color: $red-dark;
+		border-color: $red-dark;
+	}
+
+	&:active {
+		background-color: darken($red-dark, 4%);
+		border-color: darken($red-dark, 4%);
+	}
+}
+
+.btn-orange {
+	color: white !important;
+	background-color: $orange;
+	border-color: $orange;
+
+	&:hover {
+		color: white !important;
+		background-color: $orange-dark;
+		border-color: $orange-dark;
+	}
+
+	&:active {
+		background-color: darken($orange-dark, 4%);
+		border-color: darken($orange-dark, 4%);
+	}
+}
+
+.btn-yellow {
+	color: $yellow-darkest;
+	background-color: $yellow-dark;
+	border-color: $yellow-dark;
+
+	&:hover {
+		color: white !important;
+		background-color: darken($yellow-dark, 6%);
+		border-color: darken($yellow-dark, 6%);
+	}
+
+	&:active {
+		background-color: darken($yellow-dark, 10%);
+		border-color: darken($yellow-dark, 10%);
+	}
+}
+
+.btn-green {
+	color: white !important;
+	background-color: $green;
+	border-color: $green;
+
+	&:hover {
+		color: white !important;
+		background-color: $green-dark;
+		border-color: $green-dark;
+	}
+
+	&:active {
+		background-color: darken($green-dark, 4%);
+		border-color: darken($green-dark, 4%);
+	}
+}
+
+.btn-teal {
+	color: white !important;
+	background-color: $teal;
+	border-color: $teal;
+
+	&:hover {
+		color: white !important;
+		background-color: $teal-dark;
+		border-color: $teal-dark;
+	}
+
+	&:active {
+		background-color: darken($teal-dark, 4%);
+		border-color: darken($teal-dark, 4%);
+	}
+}
+
+.btn-blue {
+	color: white !important;
+	background-color: $blue;
+	border-color: $blue;
+
+	&:hover {
+		color: white !important;
+		background-color: $blue-dark;
+		border-color: $blue-dark;
+	}
+
+	&:active {
+		background-color: darken($blue-dark, 4%);
+		border-color: darken($blue-dark, 4%);
+	}
+}
+
+.btn-indigo {
+	color: white !important;
+	background-color: $indigo;
+	border-color: $indigo;
+
+	&:hover {
+		color: white !important;
+		background-color: $indigo-dark;
+		border-color: $indigo-dark;
+	}
+
+	&:active {
+		background-color: darken($indigo-dark, 4%);
+		border-color: darken($indigo-dark, 4%);
+	}
+}
+
+.btn-purple {
+	color: white !important;
+	background-color: $purple;
+	border-color: $purple;
+
+	&:hover {
+		color: white !important;
+		background-color: $purple-dark;
+		border-color: $purple-dark;
+	}
+
+	&:active {
+		background-color: darken($purple-dark, 4%);
+		border-color: darken($purple-dark, 4%);
+	}
+}
+
+.btn-pink {
+	color: white !important;
+	background-color: $pink-dark;
+	border-color: $pink-dark;
+
+	&:hover {
+		color: white !important;
+		background-color: darken($pink-dark, 6%);
+		border-color: darken($pink-dark, 6%);
+	}
+
+	&:active {
+		background-color: darken($pink-dark, 12%);
+		border-color: darken($pink-dark, 12%);
+	}
+}
+
+.btn-grey-outline {
+	color: $grey-dark;
+	background-color: transparent;
+	border-color: $grey-dark;
+
+	&:hover {
+		color: white !important;
+		background-color: $grey-dark;
+		border-color: $grey-dark;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: darken($grey-dark, 8%);
+		border-color: darken($grey-dark, 8%);
+	}
+}
+
+.btn-red-outline {
+	color: $red;
+	background-color: transparent;
+	border-color: $red;
+
+	&:hover {
+		color: white !important;
+		background-color: $red;
+		border-color: $red;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: $red-dark;
+		border-color: $red-dark;
+	}
+}
+
+.btn-orange-outline {
+	color: $orange;
+	background-color: transparent;
+	border-color: $orange;
+
+	&:hover {
+		color: white !important;
+		background-color: $orange;
+		border-color: $orange;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: $orange-dark;
+		border-color: $orange-dark;
+	}
+}
+
+.btn-yellow-outline {
+	color: darken($yellow-dark, 4%);
+	background-color: transparent;
+	border-color: darken($yellow-dark, 4%);
+
+	&:hover {
+		color: $yellow-darkest;
+		background-color: $yellow-dark;
+		border-color: $yellow-dark;
+	}
+
+	&:active {
+		color: $yellow-darkest;
+		background-color: darken($yellow-dark, 8%);
+		border-color: darken($yellow-dark, 8%);
+	}
+}
+
+.btn-green-outline {
+	color: $green;
+	background-color: transparent;
+	border-color: $green;
+
+	&:hover {
+		color: white !important;
+		background-color: $green;
+		border-color: $green;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: $green-dark;
+		border-color: $green-dark;
+	}
+}
+
+.btn-teal-outline {
+	color: $teal;
+	background-color: transparent;
+	border-color: $teal;
+
+	&:hover {
+		color: white !important;
+		background-color: $teal;
+		border-color: $teal;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: $teal-dark;
+		border-color: $teal-dark;
+	}
+}
+
+.btn-blue-outline {
+	color: $blue;
+	background-color: transparent;
+	border-color: $blue;
+
+	&:hover {
+		color: white !important;
+		background-color: $blue;
+		border-color: $blue;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: $blue-dark;
+		border-color: $blue-dark;
+	}
+}
+
+.btn-indigo-outline {
+	color: $indigo !important;
+	background-color: transparent;
+	border-color: $indigo !important;
+
+	&:hover {
+		color: white !important;
+		background-color: $indigo;
+		border-color: $indigo;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: $indigo-dark;
+		border-color: $indigo-dark;
+	}
+}
+
+.btn-purple-outline {
+	color: $purple;
+	background-color: transparent;
+	border-color: $purple;
+
+	&:hover {
+		color: white !important;
+		background-color: $purple;
+		border-color: $purple;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: $purple-dark;
+		border-color: $purple-dark;
+	}
+}
+
+.btn-pink-outline {
+	color: $pink;
+	background-color: transparent;
+	border-color: $pink-dark;
+
+	&:hover {
+		color: white !important;
+		background-color: $pink-dark;
+		border-color: $pink-dark;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: darken($pink-dark, 8%);
+		border-color: darken($pink-dark, 8%);
+	}
+}
+
+.btn-grey-3d {
+	color: white !important;
+	background-color: $grey-dark;
+	border-color: $grey-darker;
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($grey-dark, 6%);
+	}
+
+	&:active {
+		background-color: darken($grey-dark, 12%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-red-3d {
+	color: white !important;
+	background-color: $red;
+	border-color: darken($red-dark, 6%);
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($red, 6%);
+	}
+
+	&:active {
+		background-color: darken($red, 10%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-orange-3d {
+	color: white !important;
+	background-color: $orange;
+	border-color: $orange-dark;
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($orange, 6%);
+	}
+
+	&:active {
+		background-color: darken($orange, 10%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-yellow-3d {
+	color: $yellow-darkest;
+	background-color: $yellow-dark;
+	border-color: darken($yellow-dark, 10%);
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($yellow-dark, 4%);
+	}
+
+	&:active {
+		background-color: darken($yellow-dark, 7%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-green-3d {
+	color: white !important;
+	background-color: $green;
+	border-color: $green-dark;
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($green, 4%);
+	}
+
+	&:active {
+		background-color: darken($green, 8%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-teal-3d {
+	color: white !important;
+	background-color: $teal;
+	border-color: $teal-dark;
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($teal, 4%);
+	}
+
+	&:active {
+		background-color: darken($teal, 8%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-blue-3d {
+	color: white !important;
+	background-color: $blue;
+	border-color: $blue-dark;
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($blue, 4%);
+	}
+
+	&:active {
+		background-color: darken($blue, 8%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-indigo-3d {
+	color: white !important;
+	background-color: $indigo;
+	border-color: $indigo-dark;
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($indigo, 4%);
+	}
+
+	&:active {
+		background-color: darken($indigo, 8%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-purple-3d {
+	color: white !important;
+	background-color: $purple;
+	border-color: $purple-dark;
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($purple, 4%);
+	}
+
+	&:active {
+		background-color: darken($purple, 8%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-pink-3d {
+	color: white !important;
+	background-color: $pink;
+	border-color: darken($pink-dark, 6%);
+	border-width: 0;
+	border-bottom-width: 4px;
+
+	&:hover {
+		background-color: darken($pink, 4%);
+	}
+
+	&:active {
+		background-color: darken($pink, 8%);
+		border-width: 0;
+		transform: translateY(4px);
+	}
+}
+
+.btn-facebook {
+	color: white !important;
+	background-color: $social-facebook;
+	border-color: $social-facebook;
+
+	&:hover {
+		color: white !important;
+		background-color: darken($social-facebook, 6%);
+		border-color: darken($social-facebook, 6%);
+	}
+
+	&:active {
+		background-color: darken($social-facebook, 12%);
+		border-color: darken($social-facebook, 12%);
+	}
+}
+
+.btn-google {
+	color: white !important;
+	background-color: $social-google;
+	border-color: $social-google;
+
+	&:hover {
+		color: white !important;
+		background-color: darken($social-google, 6%);
+		border-color: darken($social-google, 6%);
+	}
+
+	&:active {
+		background-color: darken($social-google, 12%);
+		border-color: darken($social-google, 12%);
+	}
+}
+
+.btn-whatsapp {
+	color: white !important;
+	background-color: $social-whatsapp;
+	border-color: $social-whatsapp;
+
+	&:hover {
+		color: white !important;
+		background-color: darken($social-whatsapp, 6%);
+		border-color: darken($social-whatsapp, 6%);
+	}
+
+	&:active {
+		background-color: darken($social-whatsapp, 12%);
+		border-color: darken($social-whatsapp, 12%);
+	}
+}

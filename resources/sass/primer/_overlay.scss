@@ -1,0 +1,92 @@
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0.6;
+	width: 100%;
+	height: 100%;
+}
+
+.overlay-dark {
+	@extend .overlay;
+	background: black;
+	opacity: 0.4;
+}
+
+.overlay-darkest {
+	@extend .overlay;
+	background: black;
+	opacity: 0.75;
+}
+
+.overlay-light {
+	@extend .overlay;
+	background: white;
+	opacity: 0.4;
+}
+
+.overlay-lightest {
+	@extend .overlay;
+	background: white;
+	opacity: 0.86;
+}
+
+.overlay-purple {
+	@extend .overlay;
+	background: $purple;
+	opacity: 0.9;
+}
+
+.overlay-blue {
+	@extend .overlay;
+	background: $blue;
+	opacity: 0.9;
+}
+
+.overlay-yellow {
+	@extend .overlay;
+	background: $yellow;
+	opacity: 0.9;
+}
+
+.overlay-red {
+	@extend .overlay;
+	background: $red;
+	opacity: 0.86;
+}
+
+.overlay-grey {
+	@extend .overlay;
+	background: $grey;
+	opacity: 0.9;
+}
+
+.overlay-orange {
+	@extend .overlay;
+	background: $orange;
+	opacity: 0.9;
+}
+
+.overlay-indigo {
+	@extend .overlay;
+	background: $indigo;
+	opacity: 0.9;
+}
+
+.overlay-green {
+	@extend .overlay;
+	background: $green;
+	opacity: 0.9;
+}
+
+.overlay-teal {
+	@extend .overlay;
+	background: $teal;
+	opacity: 0.9;
+}
+
+.overlay-pink {
+	@extend .overlay;
+	background: $pink;
+	opacity: 0.9;
+}

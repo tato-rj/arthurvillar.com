@@ -1,0 +1,111 @@
+//
+// MARGIN
+//
+
+.mt-6 {margin-top: ($spacer * 4) !important;}
+.mt-7 {margin-top: ($spacer * 5) !important;}
+.mt-8 {margin-top: ($spacer * 6) !important;}
+
+.mb-6 {margin-bottom: ($spacer * 4) !important;}
+.mb-7 {margin-bottom: ($spacer * 5) !important;}
+.mb-8 {margin-bottom: ($spacer * 6) !important;}
+
+.ml-6 {margin-left: ($spacer * 4) !important;}
+.ml-7 {margin-left: ($spacer * 5) !important;}
+.ml-8 {margin-left: ($spacer * 6) !important;}
+
+.mr-6 {margin-right: ($spacer * 4) !important;}
+.mr-7 {margin-right: ($spacer * 5) !important;}
+.mr-8 {margin-right: ($spacer * 6) !important;}
+
+.m-6 {
+  @extend .mt-6, .mb-6, .ml-6, .mr-6;
+}
+
+.m-7 {
+  @extend .mt-7, .mb-7, .ml-7, .mr-7;
+}
+
+.m-8 {
+  @extend .mt-8, .mb-8, .ml-8, .mr-8;
+}
+
+.mx-6 {
+  @extend .ml-6, .mr-6;
+}
+
+.mx-7 {
+  @extend .ml-7, .mr-7;
+}
+
+.mx-8 {
+  @extend .ml-8, .mr-8;
+}
+
+.my-6 {
+  @extend .mt-6, .mb-6;
+}
+
+.my-7 {
+  @extend .mt-7, .mb-7;
+}
+
+.my-8 {
+  @extend .mt-8, .mb-8;
+}
+
+//
+// PADDING
+//
+
+.pt-6 {padding-top: ($spacer * 4) !important;}
+.pt-7 {padding-top: ($spacer * 5) !important;}
+.pt-8 {padding-top: ($spacer * 6) !important;}
+
+.pb-6 {padding-bottom: ($spacer * 4) !important;}
+.pb-7 {padding-bottom: ($spacer * 5) !important;}
+.pb-8 {padding-bottom: ($spacer * 6) !important;}
+
+.pl-6 {padding-left: ($spacer * 4) !important;}
+.pl-7 {padding-left: ($spacer * 5) !important;}
+.pl-8 {padding-left: ($spacer * 6) !important;}
+
+.pr-6 {padding-right: ($spacer * 4) !important;}
+.pr-7 {padding-right: ($spacer * 5) !important;}
+.pr-8 {padding-right: ($spacer * 6) !important;}
+
+.p-6 {
+  @extend .pt-6, .pb-6, .pl-6, .pr-6;
+}
+
+.p-7 {
+  @extend .pt-7, .pb-7, .pl-7, .pr-7;
+}
+
+.p-8 {
+  @extend .pt-8, .pb-8, .pl-8, .pr-8;
+}
+
+.px-6 {
+  @extend .pl-6, .pr-6;
+}
+
+.px-7 {
+  @extend .pl-7, .pr-7;
+}
+
+.px-8 {
+  @extend .pl-8, .pr-8;
+}
+
+.py-6 {
+  @extend .pt-6, .pb-6;
+}
+
+.py-7 {
+  @extend .pt-7, .pb-7;
+}
+
+.py-8 {
+  @extend .pt-8, .pb-8;
+}

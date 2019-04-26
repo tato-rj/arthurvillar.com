@@ -1,0 +1,71 @@
+.alert-accent-left {
+	border-radius: 0 !important;
+	border-width: 0;
+	border-left-width: 4px;
+}
+
+.alert-accent-top {
+	border-radius: 0 !important;
+	border-width: 0;
+	border-top-width: 4px;
+}
+
+.alert-grey {
+	color: $grey-darker;
+	background-color: $grey-lightest;
+	border-color: $grey-light;
+}
+
+.alert-red {
+	color: $red-dark;
+	background-color: $red-lightest;
+	border-color: $red-lighter;
+}
+
+.alert-orange {
+	color: $orange-dark;
+	background-color: $orange-lightest;
+	border-color: $orange-lighter;
+}
+
+.alert-yellow {
+	color: $yellow-darker;
+	background-color: $yellow-lightest;
+	border-color: $yellow-dark;
+}
+
+.alert-green {
+	color: $green-dark;
+	background-color: $green-lightest;
+	border-color: $green-lighter;
+}
+
+.alert-teal {
+	color: $teal-dark;
+	background-color: $teal-lightest;
+	border-color: $teal-lighter;
+}
+
+.alert-blue {
+	color: $blue-dark;
+	background-color: $blue-lightest;
+	border-color: $blue-lighter;
+}
+
+.alert-indigo {
+	color: $indigo-dark;
+	background-color: $indigo-lightest;
+	border-color: $indigo-lighter;
+}
+
+.alert-purple {
+	color: $purple-dark;
+	background-color: $purple-lightest;
+	border-color: $purple-lighter;
+}
+
+.alert-pink {
+	color: $pink-dark;
+	background-color: $pink-lightest;
+	border-color: $pink-lighter;
+}

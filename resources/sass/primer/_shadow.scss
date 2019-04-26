@@ -1,0 +1,27 @@
+.shadow-light {
+	box-shadow: 0 0 1rem rgba(0,0,0,.085)!important;
+}
+
+.shadow-lg-light {
+	box-shadow: 0 0 3rem rgba(0,0,0,.085)!important;
+}
+
+.shadow-center {
+	box-shadow: 0 0 1rem rgba(0,0,0,.085)!important;
+}
+
+.shadow-lg-center {
+	box-shadow: 0 0 3rem rgba(0,0,0,.175)!important;
+}
+
+.hover-shadow, .hover-shadow-lg {
+	@extend .t-2;
+}
+
+.hover-shadow:hover {
+	@extend .shadow-center;
+}
+
+.hover-shadow-lg:hover {
+	@extend .shadow-lg-center;
+}

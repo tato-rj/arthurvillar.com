@@ -1,0 +1,53 @@
+.list-style-circle {
+	li {
+		list-style-type: circle;
+	}
+}
+
+.list-style-disc {
+	li {
+		list-style-type: disc;
+	}
+}
+
+.list-style-decimal {
+	li {
+		list-style-type: decimal;
+	}
+}
+
+.list-style-alpha {
+	li {
+		list-style-type: lower-alpha;
+	}
+}
+
+.list-style-roman {
+	li {
+		list-style-type: lower-roman;
+	}
+}
+
+.list-style-ualpha {
+	li {
+		list-style-type: upper-alpha;
+	}
+}
+
+.list-style-uroman {
+	li {
+		list-style-type: upper-roman;
+	}
+}
+
+.list-style-none {
+	li {
+		list-style-type: none;
+	}
+}
+
+.list-flat {
+	@extend .list-style-none;
+	padding: 0;
+	margin: 0;
+}

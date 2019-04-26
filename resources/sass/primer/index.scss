@@ -1,0 +1,43 @@
+@import "variables";
+@import "spacing";
+@import "position";
+@import "sizing";
+@import "colors";
+@import "border";
+@import "list";
+@import "font";
+@import "link";
+@import "visibility";
+@import "shadow";
+@import "display";
+@import "animation";
+@import "alert";
+@import "button";
+@import "misc";
+@import "background";
+@import "overlay";
+@import "scrollbar";
+
+.icon-input::before {
+	content: attr(data-lang);
+	position: absolute;
+	top: 0;
+	left: .75em;
+	font-size: .75em;
+	text-transform: uppercase;
+	color: #ced4da;
+	font-weight: bold;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.icon-input {
+	input {
+		padding-left: 2.75em !important;
+	}
+}
+
+.text-underline {
+	text-decoration: underline;
+}

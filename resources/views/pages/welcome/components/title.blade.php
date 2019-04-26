@@ -16,6 +16,6 @@
 		@endforeach
 	</div>
 	<div class="text-grey mr-2" style="line-height: 0">
-		<a href="{{$url}}" target="_blank" class="link-inherit t-2"><i class="fas fa-link fa-2x"></i></a>
+		<a href="{{$url}}" class="link-inherit t-2"><i class="fas fa-link fa-2x"></i></a>
 	</div>
 </div>
